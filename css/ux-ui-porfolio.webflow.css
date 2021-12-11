@@ -16,10 +16,9 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/bg-top.png');
-  background-image: linear-gradient(180deg, transparent, transparent), url('../images/bg-top.png');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
+  background-image: url('../images/bg-top.png');
+  background-position: 0px 0px;
+  background-size: cover;
   color: #fff;
   font-size: 16px;
 }
@@ -46,9 +45,10 @@
 
 .heading {
   margin-bottom: 28px;
+  padding-bottom: 14px;
   font-family: Montserrat, sans-serif;
   color: #fff;
-  font-size: 67px;
+  font-size: 6em;
   font-weight: 500;
   text-align: left;
 }
@@ -56,12 +56,12 @@
 .paragraph {
   font-family: Montserrat, sans-serif;
   color: #fff;
-  font-size: 30px;
+  font-size: 2.5em;
   font-weight: 300;
   text-align: left;
 }
 
-.image {
+.main-logo {
   position: absolute;
   left: 30px;
   top: 69px;
@@ -74,10 +74,12 @@
 }
 
 .body {
+  margin-bottom: 0px;
   background-color: transparent;
   background-image: url('../images/bg-top.png');
-  background-position: 0px 0px;
-  background-size: auto;
+  background-position: 100% 50%;
+  background-size: cover;
+  background-repeat: repeat-x;
 }
 
 .main-content {
@@ -184,9 +186,11 @@
 }
 
 .hero-image {
-  width: 100%;
+  width: 80%;
   height: 100%;
+  margin-left: 101px;
   padding-right: 0px;
+  padding-left: 0px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0.5 auto;
   -ms-flex: 0 0.5 auto;
@@ -208,9 +212,11 @@
   overflow: visible;
   min-width: 10px;
   padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   font-family: Montserrat, sans-serif;
   color: #efc356;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 25px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -240,6 +246,8 @@
 }
 
 .right-portfolio-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
   background-image: url('../images/bg-bottom.png');
   background-position: 0% 100%;
   background-size: cover;
@@ -249,7 +257,7 @@
 
 .div-block {
   margin-left: 0px;
-  padding-left: 41px;
+  padding-left: 0px;
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
   -ms-flex-order: 1;
@@ -506,6 +514,14 @@
   text-transform: uppercase;
 }
 
+.div-block-4 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: -35px;
+  padding-right: 521px;
+  padding-left: 0px;
+}
+
 .navbar-2 {
   background-color: transparent;
   color: #fff;
@@ -591,6 +607,8 @@
 }
 
 .centered-container-2 {
+  margin-top: 0px;
+  padding-left: 0px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -599,7 +617,7 @@
 }
 
 .body-2 {
-  background-color: #373737;
+  background-color: #254438;
 }
 
 .container-3 {
@@ -615,7 +633,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -200px;
+  margin-top: 0px;
   margin-left: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -697,6 +715,7 @@
 }
 
 .nav-menu-2 {
+  margin-left: 240px;
   padding-left: 0px;
 }
 
@@ -888,6 +907,8 @@
 }
 
 .heading-3 {
+  margin-right: -3px;
+  margin-bottom: 10px;
   margin-left: 60px;
   font-family: Roboto, sans-serif;
   color: #fff;
@@ -895,6 +916,7 @@
 }
 
 .paragraph-3 {
+  margin-top: -3px;
   margin-left: 60px;
   font-family: Roboto, sans-serif;
   color: #fff;
@@ -914,6 +936,7 @@
 }
 
 .div-block-10 {
+  margin-left: 0px;
   padding-bottom: 30px;
 }
 
@@ -922,10 +945,12 @@
 }
 
 .overview-image {
-  position: absolute;
-  left: 823px;
-  top: 1416px;
-  width: 500px;
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 700px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .div-block-12 {
@@ -994,8 +1019,8 @@
 .overview {
   display: block;
   margin-left: 0px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 200px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1090,6 +1115,7 @@
   -ms-flex-align: center;
   align-items: center;
   font-family: Roboto, sans-serif;
+  color: #254438;
   font-size: 48px;
   font-weight: 700;
 }
@@ -1147,7 +1173,7 @@
   -ms-flex-align: center;
   align-items: center;
   font-family: Roboto, sans-serif;
-  color: #242424;
+  color: #6691ff;
   font-size: 48px;
   font-weight: 700;
 }
@@ -1179,24 +1205,50 @@
 }
 
 .design-div-1 {
-  width: 442px;
-  height: 625px;
-  margin-right: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  height: 1000px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: 300px;
   padding-right: 0px;
-  background-image: url('../images/Sushi-ai-Homescreen.png');
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/Sushi-ai-phone-1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .design-div-2 {
-  width: 442px;
-  height: 625px;
-  margin-right: 10px;
-  margin-left: 0px;
+  width: 600px;
+  height: 1000px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: -150px;
   padding-right: 0px;
   padding-left: 0px;
-  background-image: url('../images/Sushi-ai-Menu.png');
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/Sushi-ai-phone-2.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1217,7 +1269,7 @@
   position: static;
   margin-left: -10px;
   font-family: Roboto, sans-serif;
-  color: #373737;
+  color: #254438;
   font-size: 148px;
   font-weight: 700;
 }
@@ -1226,7 +1278,7 @@
   position: static;
   margin-left: -93px;
   font-family: Roboto, sans-serif;
-  color: #242424;
+  color: #6691ff;
   font-size: 148px;
   font-weight: 700;
 }
@@ -1390,12 +1442,18 @@
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
+  margin-top: auto;
+  margin-bottom: auto;
   padding-right: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1406,15 +1464,26 @@
 }
 
 .overview-div-1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-bottom: 30px;
 }
 
 .overview-div-2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
   padding-bottom: 61px;
+}
+
+.overview-div-3 {
+  margin-top: -8px;
 }
 
 .overview-hero-image {
   width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: 40px;
 }
 
@@ -1464,7 +1533,11 @@
 }
 
 .preliminaries-image {
-  width: 350px;
+  display: block;
+  width: 1000px;
+  background-image: url('../images/Sushi-ai-phone-1.png');
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .div-block-14 {
@@ -1786,7 +1859,7 @@
   -ms-flex-align: center;
   align-items: center;
   font-family: Roboto, sans-serif;
-  color: #242424;
+  color: #254438;
   font-size: 48px;
   font-weight: 700;
 }
@@ -1795,7 +1868,7 @@
   position: static;
   margin-left: 8px;
   font-family: Roboto, sans-serif;
-  color: #242424;
+  color: #254438;
   font-size: 148px;
   font-weight: 700;
 }
@@ -1804,7 +1877,7 @@
   width: 100%;
   height: 450px;
   margin-top: 96px;
-  background-image: url('../images/Sushi-ai-ia-map.png');
+  background-image: url('../images/Campery-IA-Map.png');
   background-position: 0px 0px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1969,6 +2042,10 @@
   background-repeat: no-repeat;
 }
 
+.sushi-ai-menu-page {
+  margin-top: 20px;
+}
+
 .research-gabriel-section-2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2039,6 +2116,3709 @@
   text-align: right;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.vecado-nav-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: auto;
+  height: 200vh;
+  max-height: 100%;
+  margin-bottom: -644px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-image: url('../images/Vecado-top.png');
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+  mix-blend-mode: normal;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.vecado-overview {
+  display: block;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.vecado-preliminaries {
+  display: block;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #6691ff;
+  color: #242424;
+}
+
+.vecado-research {
+  display: block;
+  width: 100%;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-research-steven-section-1 {
+  display: block;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #6691ff;
+  background-image: url('../images/Image_1.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #242424;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-research-steven-section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #373737;
+  background-image: url('../images/Steven-task.png');
+  background-position: 100% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #373737;
+  text-align: right;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-research-ariel-section-1 {
+  display: block;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #6691ff;
+  background-image: url('../images/Ariel-Research.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #242424;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-research-ariel-section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #373737;
+  background-image: url('../images/Ariel-Task.png');
+  background-position: 100% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #373737;
+  text-align: right;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-research-amaya-section-1 {
+  display: block;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #6691ff;
+  background-image: url('../images/Khalil-Research.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #242424;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-research-amaya-section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #373737;
+  background-image: url('../images/Khalil-task.png');
+  background-position: 100% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #373737;
+  text-align: right;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-planning {
+  display: block;
+  width: 100%;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #6691ff;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-ideation {
+  display: block;
+  width: 100%;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #373737;
+  color: #242424;
+}
+
+.vecado-design {
+  display: block;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #6691ff;
+}
+
+.vecado-overview-top-bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.vecado-overview-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.vecado-overview-div-7 {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 0px;
+  background-color: #6691ff;
+}
+
+.vecado-preliminaries-top-bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 1350px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.vecado-preliminaries-top {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  height: 89px;
+  padding: 0px;
+  background-color: #373737;
+}
+
+.vecado-text-block {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #6691ff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.vecado-div-block {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.vecado-prelimiaries-text {
+  position: static;
+  margin-left: -262px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #6691ff;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.vecado-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.vecado-hero-image {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.vecado-preliminaries-image {
+  width: 350px;
+}
+
+.vecado-div-block-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.vecado-div-block-10 {
+  padding-bottom: 30px;
+}
+
+.vecado-heading-3 {
+  margin-left: 60px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+
+.vecado-paragraph-3 {
+  margin-left: 60px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.vecado-heading-4 {
+  margin-left: 60px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.paragraph-3-copy {
+  margin-left: 60px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.vecado-research-div-top {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.vecado-research-flex-container-main {
+  display: block;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.overview-div-7-copy {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 0px;
+  background-color: #f46524;
+}
+
+.vecado-overview-div-9 {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 0px;
+  background-color: #6691ff;
+}
+
+.vecado-overview-div-8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.vecado-overview-text {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.vecado-overview-text-block {
+  position: static;
+  margin-left: -10px;
+  font-family: Roboto, sans-serif;
+  color: #373737;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.vecado-research-div-main {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  padding-right: 0px;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.vecado-reserach-div-1 {
+  width: 384px;
+  height: 616px;
+  margin-right: 10px;
+  padding-bottom: 0px;
+  background-image: url('../images/Steven-Research.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vecado-reserach-div-2 {
+  width: 384px;
+  height: 616px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-image: url('../images/Image-2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vecado-reserach-div-3 {
+  width: 384px;
+  height: 616px;
+  margin-left: 10px;
+  background-image: url('../images/Image-1_1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vecado-planning-div-top {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.vecado-planning-flex-container-main {
+  display: block;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.planning-orange-rectangle-copy {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 89px;
+  padding: 0px;
+  background-color: #f46524;
+}
+
+.vecado-planning-orange-rectangle {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 89px;
+  padding: 0px;
+  background-color: #373737;
+}
+
+.vecado-planning_number {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.vecado-planning-text-block {
+  position: static;
+  margin-left: 8px;
+  font-family: Roboto, sans-serif;
+  color: #6691ff;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.ideation-top-bar-copy {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 1500px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.vecado-ideation-top-bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 1500px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.vecado-ideation-top {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 89px;
+  padding: 0px;
+  background-color: #6691ff;
+}
+
+.vecado-ideation-block-8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.vecado-ideation-text-block {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #373737;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.vecado-ideation-text {
+  position: static;
+  margin-left: -262px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #373737;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.vecado-ideation-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  min-height: 600px;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url('../images/color-map.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vecado-design-div-top {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.vecado-design-div-7 {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 320px;
+  height: 89px;
+  padding: 0px;
+  background-color: #373737;
+}
+
+.vecado-design-div-8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.vecado-flex-container-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.vecado-design-div-1 {
+  width: 442px;
+  height: 625px;
+  margin-right: 10px;
+  padding-right: 0px;
+  background-image: url('../images/Vecado-Phone.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vecado-design-div-2 {
+  width: 442px;
+  height: 625px;
+  margin-right: 10px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: url('../images/Vecado-shopping.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vecado-design-div-3 {
+  width: 442px;
+  height: 625px;
+  padding-right: 0px;
+  padding-left: 10px;
+  background-image: url('../images/Sushi-ai-Hamburger.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.image-3 {
+  background-image: url('../images/Campery-Phone-images.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block-16 {
+  position: absolute;
+  left: 121px;
+  top: 881px;
+  overflow: visible;
+  width: 500px;
+  height: 320px;
+  background-image: url('../images/Campery-Phone-images_Main.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.heading-2-right {
+  padding-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #efc356;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.paragraph-2-right {
+  overflow: visible;
+  min-width: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #efc356;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: none;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.button-right {
+  padding-left: 0px;
+  background-color: transparent;
+  font-family: Montserrat, sans-serif;
+  color: #efc356;
+  font-weight: 300;
+}
+
+.campery-image-div {
+  position: absolute;
+  left: 121px;
+  top: 881px;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+  padding-left: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.sushi-ai-image {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: -95px;
+  margin-bottom: -73px;
+  margin-left: -463px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0.5 auto;
+  -ms-flex: 0 0.5 auto;
+  flex: 0 0.5 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.resource-app-block {
+  margin-left: 0px;
+  padding-left: 0px;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.resource-app-image {
+  display: block;
+  width: 70%;
+  height: 100%;
+  margin-left: 0px;
+  padding-right: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0.5 auto;
+  -ms-flex: 0 0.5 auto;
+  flex: 0 0.5 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.sushi-ai-design-text {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 11px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #254438;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sushi-ai-design-text-block {
+  position: static;
+  margin-left: -93px;
+  font-family: Roboto, sans-serif;
+  color: #254438;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.div-block-17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 400px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sushi-ai-menu-phone {
+  width: 700px;
+  height: 1200px;
+  margin-left: -175px;
+  padding-left: 0px;
+  background-image: url('../images/Sushi-ai-phone-2.png');
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.sushi-ai-main-phone {
+  width: 1000px;
+  height: 700px;
+  margin-right: 0px;
+  margin-left: -300px;
+  padding-left: 0px;
+  background-image: url('../images/Sushi-ai-website-1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.image-4 {
+  position: absolute;
+  display: inline-block;
+  overflow: visible;
+  width: auto;
+  height: 604px;
+  max-height: none;
+  max-width: none;
+  margin-top: -65px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.div-block-18 {
+  width: auto;
+  height: 700px;
+  background-image: url('../images/MacBook-Pro--iPhone-12-Pro.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.magical-library {
+  width: 110%;
+  height: 100%;
+  padding-right: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0.5 auto;
+  -ms-flex: 0 0.5 auto;
+  flex: 0 0.5 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.mets-museum-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: -62px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0.5 auto;
+  -ms-flex: 0 0.5 auto;
+  flex: 0 0.5 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.sushi-ai-image-mask {
+  width: auto;
+  height: auto;
+  margin-left: -44px;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.campery-hero-image {
+  display: block;
+  width: 95%;
+  height: 100%;
+  margin-left: -75px;
+  padding-right: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0.5 auto;
+  -ms-flex: 0 0.5 auto;
+  flex: 0 0.5 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.campery-overview {
+  display: block;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 200px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.campery-overview-top-bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.campery-overview-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.campery-overview-div-7 {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.campery-overview_div_8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.campery-overview-text {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #254438;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.campery-overview-text-block {
+  position: static;
+  margin-left: -10px;
+  font-family: Roboto, sans-serif;
+  color: #254438;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.campery-overview-div-main {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-overview-div-1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+}
+
+.campery-overview-div-2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 61px;
+}
+
+.campery-overview-div-3 {
+  margin-top: -8px;
+}
+
+.campery-overview-hero-image {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 40px;
+}
+
+.campery-div-block-18 {
+  width: 500px;
+  height: 500px;
+  margin-right: 53px;
+  margin-left: -112px;
+  background-image: url('../images/Campery-Phone-images.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-preliminaries {
+  display: block;
+  margin-left: 0px;
+  padding-top: 200px;
+  padding-bottom: 365px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #242424;
+  color: #242424;
+}
+
+.campery-preliminaries-top-bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 1350px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.campery-preliminaries-top {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.campery-div-block-8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.campery-prelimiaries-text {
+  position: static;
+  margin-left: -262px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.campery-flex-container-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.campery-hero-image-mask {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.campery-div-block-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.campery-research {
+  display: block;
+  width: 100%;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-research-div-top {
+  position: absolute;
+  top: auto;
+  display: block;
+  margin-top: -127px;
+  margin-bottom: 0px;
+  margin-left: -1900px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.overview-div-7-copy {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 0px;
+  background-color: #f46524;
+}
+
+.campery-overview-div {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.overview-div-8-copy {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.campery-research-flex-container-main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.campery-research-div-main {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  padding-right: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-reserach-div-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 384px;
+  height: 616px;
+  margin-right: 10px;
+  padding-bottom: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: url('../images/Campery-Research-1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-reserach-div-2 {
+  width: 384px;
+  height: 616px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-image: url('../images/Campery-Research-2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-reserach-div-3 {
+  display: block;
+  width: 384px;
+  height: 616px;
+  margin-top: -50px;
+  margin-left: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Campery-Research-3.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-research-ayo-section-1 {
+  display: block;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #242424;
+  background-image: url('../images/Lynda_reserach.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #242424;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-research-ayo-section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #373737;
+  background-image: url('../images/Lynda_Task.png');
+  background-position: 100% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #373737;
+  text-align: right;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-research-rowan-section-1 {
+  display: block;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #242424;
+  background-image: url('../images/Gabriel_reserach.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #242424;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-research-rowan-section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #373737;
+  background-image: url('../images/Gabriel_Task.png');
+  background-position: 100% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #373737;
+  text-align: right;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-research-joel-section-1 {
+  display: block;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #242424;
+  background-image: url('../images/Amaya_reserach.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #242424;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-research-joel-section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 998%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 700px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-color: #373737;
+  background-image: url('../images/Amaya_Task.png');
+  background-position: 100% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #373737;
+  text-align: right;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-planning {
+  display: block;
+  width: 100%;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #254438;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-planning-div-top {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.campery-planning-flex-container-main {
+  display: block;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.campery-planning-orange-rectangle {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.campery-planning_number {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.campery-planning-div-main {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  margin-left: -92px;
+  padding-right: 0px;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-ideation {
+  display: block;
+  width: 100%;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #242424;
+  color: #242424;
+}
+
+.campery-ideation-top-bar {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 1500px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.campery-ideation-top {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.campery-ideation-block-8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.campery-ideation-flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  min-height: 600px;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url('../images/Sushi-ai-ideation.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-ideation-text-block {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.campery-ideation-text {
+  position: static;
+  margin-left: -262px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.campery-design {
+  display: block;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #254438;
+  color: #333;
+}
+
+.campery-design-div-top {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.campery-flex_container_2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.campery-design-div-7 {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 320px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.campery-design-div-8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.campery-design-div-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  height: 1000px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: 300px;
+  padding-right: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/Sushi-ai-phone-1.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-design-div-2 {
+  width: 600px;
+  height: 1000px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: -150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/Sushi-ai-phone-2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-div-block-17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 400px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.campery-nav_top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: auto;
+  height: 200vh;
+  max-height: 100%;
+  margin-bottom: -644px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  background-image: url('../images/Campery-Hero-image.png');
+  background-position: 50% 0%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+  mix-blend-mode: normal;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.div-block-19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.campery-statistic {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.cards-grid-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  height: 961px;
+  margin-right: 0px;
+  margin-left: -220px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  text-align: left;
+}
+
+.cards-image-mask {
+  position: relative;
+  overflow: visible;
+  width: 550px;
+  height: 700px;
+  margin-right: -53px;
+  padding-top: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 0%;
+}
+
+.cards-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  width: 500px;
+  height: 700px;
+  max-width: none;
+  margin: auto 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.heading-5 {
+  margin-bottom: 40px;
+  margin-left: -169px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.div-block-20 {
+  width: 550px;
+  height: 961px;
+  padding-left: 0px;
+}
+
+.campery-competitive-analysis {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #242424;
+}
+
+.competitive-cards-grid-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  height: 961px;
+  margin-right: 0px;
+  margin-left: -220px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  text-align: left;
+}
+
+.competitive-div-block-20 {
+  width: 550px;
+  height: 961px;
+  padding-left: 0px;
+}
+
+.competitive-cards-image-mask {
+  position: relative;
+  overflow: visible;
+  width: 550px;
+  height: 700px;
+  margin-right: -53px;
+  padding-top: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 0%;
+}
+
+.cards-image-mask-copy {
+  position: relative;
+  overflow: visible;
+  width: 550px;
+  height: 700px;
+  margin-right: -53px;
+  padding-top: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 0%;
+}
+
+.cards-image-mask-copy-copy {
+  position: relative;
+  overflow: visible;
+  width: 550px;
+  height: 700px;
+  margin-right: -53px;
+  padding-top: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 0%;
+}
+
+.competitive-card-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  width: 500px;
+  height: 700px;
+  max-width: none;
+  margin: auto 0px auto 150px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.campery-solutions {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #242424;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-research-flex-container-main-copy {
+  display: block;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.campery-solution-container {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.campery-solution-div-1 {
+  width: 384px;
+  height: 616px;
+  margin-top: 32px;
+  margin-right: 30px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  background-image: url('../images/Image_3.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-solution-div-2 {
+  width: 384px;
+  height: 616px;
+  margin-right: 30px;
+  margin-left: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-image: url('../images/Campery-Solution-2.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-solution-div-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 384px;
+  height: 616px;
+  margin-top: 30px;
+  margin-left: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Image-1_3.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#242424));
+  background-image: linear-gradient(180deg, #242424, #242424);
+  color: #fff;
+}
+
+.centered-container-3 {
+  margin-top: 120px;
+  padding-left: 50px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.gallery-grid-container {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 35px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 62px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr 62px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 52px 20px 158px 20px 52px 20px 158px;
+  grid-template-rows: 52px 158px 52px 158px;
+}
+
+.gallery-lightbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-thumbnail {
+  display: block;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.div-block-21 {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Athul.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading-6 {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.paragraph-4 {
+  font-size: 24px;
+  text-align: left;
+}
+
+.paragraph-5 {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.text-block-4 {
+  text-align: left;
+}
+
+.heading-7 {
+  color: #fff;
+  text-align: left;
+}
+
+.heading-8 {
+  color: #fff;
+  text-align: left;
+}
+
+.campery-goals-list {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.campery-demographics {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-personality-image {
+  width: 349px;
+  height: 205px;
+  background-image: url('../images/Campery-Athul-Personality.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-athul-reserach-gallery-1 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#242424));
+  background-image: linear-gradient(180deg, #242424, #242424);
+  color: #fff;
+}
+
+.campery-athul-reserach-gallery-2 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#254438), to(#254438));
+  background-image: linear-gradient(180deg, #254438, #254438);
+  color: #fff;
+}
+
+.campery-athul-task {
+  padding-left: 50px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.campery-athul-task-flow {
+  display: -ms-grid;
+  display: grid;
+  width: 700px;
+  height: 410px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 35px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 62px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 158px;
+  grid-template-rows: 158px;
+  background-image: url('../images/Campery-Athul-Task.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-levi-reserach-gallery-1 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#242424));
+  background-image: linear-gradient(180deg, #242424, #242424);
+  color: #fff;
+}
+
+.campery-levi-reserach-gallery-2 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#254438), to(#254438));
+  background-image: linear-gradient(180deg, #254438, #254438);
+  color: #fff;
+}
+
+.campery-research-levi-image {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Campery-Research-Levi.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-research-athul-image {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Athul.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-levi-personality-image {
+  width: 349px;
+  height: 205px;
+  background-image: url('../images/Campery-Levi-Personality.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-athul-personality-image {
+  width: 349px;
+  height: 205px;
+  background-image: url('../images/Campery-Athul-Personality.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-levi-task-flow {
+  display: -ms-grid;
+  display: grid;
+  width: 700px;
+  height: 410px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 35px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 62px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 158px;
+  grid-template-rows: 158px;
+  background-image: url('../images/Campery-Levi-Task.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-joel-reserach-gallery-1 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#242424));
+  background-image: linear-gradient(180deg, #242424, #242424);
+  color: #fff;
+}
+
+.campery-joel-reserach-gallery-2 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#254438), to(#254438));
+  background-image: linear-gradient(180deg, #254438, #254438);
+  color: #fff;
+}
+
+.campery-research-joel-image {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Campery-Research-Joel.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-joel-personality-image {
+  width: 349px;
+  height: 205px;
+  background-image: url('../images/Campery-Joel-Personality.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-joel-task-flow {
+  display: -ms-grid;
+  display: grid;
+  width: 700px;
+  height: 410px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 35px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 62px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 158px;
+  grid-template-rows: 158px;
+  background-image: url('../images/Campery-Joel-task.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-logo {
+  background-image: url('../images/Campery-logo.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-ideation-color {
+  background-image: url('../images/Campery-Ideation-color.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-ideation-icons {
+  width: 349px;
+  height: 205px;
+  background-image: url('../images/Icons.png');
+  background-position: 50% 0%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-app-main-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  height: 1000px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: 300px;
+  padding-right: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/Campery-App-Main.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-app-park-description-image {
+  width: 600px;
+  height: 1000px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: -150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/Campery-App-Park-Description.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-app-guides-image {
+  width: 600px;
+  height: 1000px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: -150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/Campery-App-Guides.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-summary {
+  display: block;
+  margin-left: 0px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #242424;
+  color: #242424;
+}
+
+.campery-summary-top-bar-copy {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 1500px;
+  padding-top: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.campery-summary-top {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.campery-summary-block-8 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 252px;
+  padding-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.campery-summary-text {
+  position: static;
+  margin-left: -262px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.campery-summary-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.campery-summary-mask {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.campery-summary-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.campery-summary-header {
+  margin-right: -3px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+
+.campery-summary-p {
+  margin-top: -3px;
+  margin-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.campery-summary-bottom-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.campery-summary-top_div {
+  margin-left: 0px;
+  padding-bottom: 30px;
+}
+
+.campery-levi-reserach-gallery-1-1 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#242424));
+  background-image: linear-gradient(180deg, #242424, #242424);
+  color: #fff;
+}
+
+.campery-levi-reserach-gallery-2-1 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#254438), to(#254438));
+  background-image: linear-gradient(180deg, #254438, #254438);
+  color: #fff;
+}
+
+.campery-research-levi-image-1 {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Campery-Research-Levi.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-research-joel-image-copy {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Campery-Research-Joel.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-levi-personality-image-1 {
+  width: 349px;
+  height: 205px;
+  background-image: url('../images/Campery-Levi-Personality.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-levi-task-flow-1 {
+  display: -ms-grid;
+  display: grid;
+  width: 700px;
+  height: 410px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 35px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 62px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 158px;
+  grid-template-rows: 158px;
+  background-image: url('../images/Campery-Levi-Task.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-athul-reserach-gallery-2-1 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#254438), to(#254438));
+  background-image: linear-gradient(180deg, #254438, #254438);
+  color: #fff;
+}
+
+.campery-athul-reserach-gallery-1-1 {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-rows: auto minmax(auto, 1fr);
+  grid-template-rows: auto minmax(auto, 1fr);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#242424));
+  background-image: linear-gradient(180deg, #242424, #242424);
+  color: #fff;
+}
+
+.campery-research-athul-image-1 {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Athul.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-athul-task-flow-1 {
+  display: -ms-grid;
+  display: grid;
+  width: 700px;
+  height: 410px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 35px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 62px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 158px;
+  grid-template-rows: 158px;
+  background-image: url('../images/Campery-Athul-Task.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.campery-athul-personality-image-1 {
+  width: 349px;
+  height: 205px;
+  background-image: url('../images/Campery-Athul-Personality.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.campery-research-heading-5 {
+  margin-bottom: 40px;
+  margin-left: -169px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.div-block-22 {
+  display: block;
+  width: auto;
+  height: 900px;
+  margin: 100px auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Resume-image.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.link-block {
+  position: static;
+  left: 109px;
+  top: 106px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.logo-link {
+  position: absolute;
+  left: 50px;
+  top: 23px;
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  background-image: url('../images/Logo.png');
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 991px) {
@@ -2343,6 +6123,442 @@
     padding-bottom: 430px;
     padding-left: 0px;
     background-position: 100% 50%;
+  }
+
+  .vecado-nav-top {
+    margin-bottom: -1333px;
+    background-size: contain;
+  }
+
+  .vecado-overview {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .vecado-preliminaries {
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .vecado-research {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .vecado-research-steven-section-1 {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 424px;
+  }
+
+  .vecado-research-steven-section-2 {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 430px;
+    padding-left: 0px;
+    background-position: 100% 50%;
+  }
+
+  .vecado-research-ariel-section-1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 444px;
+  }
+
+  .vecado-research-ariel-section-2 {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 430px;
+    padding-left: 0px;
+    background-position: 100% 50%;
+  }
+
+  .vecado-research-amaya-section-1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 434px;
+  }
+
+  .vecado-research-amaya-section-2 {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 430px;
+    padding-left: 0px;
+    background-position: 100% 50%;
+  }
+
+  .vecado-planning {
+    margin-top: -184px;
+    padding-top: 0px;
+  }
+
+  .vecado-ideation {
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .vecado-design {
+    margin-top: 0px;
+    padding-top: 100px;
+  }
+
+  .vecado-overview-top-bar {
+    margin-top: -70px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+
+  .vecado-overview-flex-container {
+    margin-top: 0px;
+  }
+
+  .vecado-preliminaries-top-bar {
+    margin-top: -120px;
+    margin-left: 220px;
+  }
+
+  .vecado-flex-container {
+    margin-top: 0px;
+  }
+
+  .vecado-research-div-top {
+    margin-top: -148px;
+    margin-left: 0px;
+  }
+
+  .vecado-reserach-div-1 {
+    height: 400px;
+  }
+
+  .vecado-reserach-div-2 {
+    height: 400px;
+  }
+
+  .vecado-reserach-div-3 {
+    height: 400px;
+  }
+
+  .vecado-planning-div-top {
+    margin-top: 37px;
+    margin-left: 0px;
+  }
+
+  .vecado-planning-text-block {
+    color: #242424;
+  }
+
+  .ideation-top-bar-copy {
+    margin-top: -120px;
+    margin-left: 348px;
+  }
+
+  .vecado-ideation-top-bar {
+    margin-top: -120px;
+    margin-left: 348px;
+  }
+
+  .vecado-ideation-flex-container {
+    height: 400px;
+    min-height: 0px;
+    margin-top: 0px;
+  }
+
+  .vecado-design-div-top {
+    margin-top: -70px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+
+  .vecado-flex-container-2 {
+    margin-top: 0px;
+  }
+
+  .campery-overview {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .campery-overview-top-bar {
+    margin-top: -70px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+
+  .campery-overview-flex-container {
+    margin-top: 0px;
+  }
+
+  .campery-overview-div-main {
+    margin-top: 65px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    font-size: 12px;
+  }
+
+  .campery-overview-div-1 {
+    padding-bottom: 40px;
+  }
+
+  .campery-overview-div-2 {
+    padding-bottom: 40px;
+  }
+
+  .campery-overview-hero-image {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-preliminaries {
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .campery-preliminaries-top-bar {
+    margin-top: -120px;
+    margin-left: 220px;
+  }
+
+  .campery-flex-container-2 {
+    margin-top: 0px;
+  }
+
+  .campery-research {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .campery-research-div-top {
+    margin-top: -148px;
+    margin-left: 0px;
+  }
+
+  .campery-reserach-div-1 {
+    height: 400px;
+  }
+
+  .campery-reserach-div-2 {
+    height: 400px;
+  }
+
+  .campery-reserach-div-3 {
+    height: 400px;
+  }
+
+  .campery-research-ayo-section-1 {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 424px;
+  }
+
+  .campery-research-ayo-section-2 {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 430px;
+    padding-left: 0px;
+    background-position: 100% 50%;
+  }
+
+  .campery-research-rowan-section-1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 444px;
+  }
+
+  .campery-research-rowan-section-2 {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 430px;
+    padding-left: 0px;
+    background-position: 100% 50%;
+  }
+
+  .campery-research-joel-section-1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 434px;
+  }
+
+  .campery-research-joel-section-2 {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 430px;
+    padding-left: 0px;
+    background-position: 100% 50%;
+  }
+
+  .campery-planning {
+    margin-top: -184px;
+    padding-top: 0px;
+  }
+
+  .campery-planning-div-top {
+    margin-top: 37px;
+    margin-left: 0px;
+  }
+
+  .campery-planning-div-main {
+    margin-left: 56px;
+  }
+
+  .campery-ideation {
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .campery-ideation-top-bar {
+    margin-top: -120px;
+    margin-left: 348px;
+  }
+
+  .campery-ideation-flex-container {
+    height: 400px;
+    min-height: 0px;
+    margin-top: 0px;
+  }
+
+  .campery-design {
+    margin-top: 0px;
+    padding-top: 100px;
+  }
+
+  .campery-design-div-top {
+    margin-top: -70px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+
+  .campery-flex_container_2 {
+    margin-top: 0px;
+  }
+
+  .campery-nav_top {
+    margin-bottom: -1333px;
+    background-size: contain;
+  }
+
+  .cards-grid-container {
+    grid-column-gap: 20px;
+  }
+
+  .competitive-cards-grid-container {
+    grid-column-gap: 20px;
+  }
+
+  .campery-solutions {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .campery-solution-div-1 {
+    height: 400px;
+  }
+
+  .campery-solution-div-2 {
+    height: 400px;
+  }
+
+  .campery-solution-div-3 {
+    height: 400px;
+  }
+
+  .gallery-grid-container {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+
+  .campery-athul-task-flow {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+
+  .campery-levi-task-flow {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+
+  .campery-joel-task-flow {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+
+  .campery-summary {
+    margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .campery-summary-top-bar-copy {
+    margin-top: -120px;
+    margin-left: 220px;
+  }
+
+  .campery-summary-container {
+    margin-top: 0px;
+  }
+
+  .campery-levi-task-flow-1 {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+
+  .campery-athul-task-flow-1 {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
   }
 }
 
@@ -2856,6 +7072,698 @@
     margin-top: 0px;
     padding: 40px 20px 136px;
   }
+
+  .vecado-nav-top {
+    padding: 40px 20px;
+  }
+
+  .vecado-overview {
+    margin-bottom: 96px;
+    padding: 40px 20px;
+  }
+
+  .vecado-preliminaries {
+    padding: 40px 20px;
+  }
+
+  .vecado-research {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-research-steven-section-1 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-research-steven-section-2 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-research-ariel-section-1 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-research-ariel-section-2 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-research-amaya-section-1 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-research-amaya-section-2 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-planning {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .vecado-ideation {
+    padding: 40px 20px;
+  }
+
+  .vecado-design {
+    position: static;
+    margin-top: 0px;
+    padding: 40px 20px;
+  }
+
+  .vecado-overview-top-bar {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .vecado-overview-flex-container {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-preliminaries-top-bar {
+    margin-top: -15px;
+    margin-left: -21px;
+  }
+
+  .vecado-flex-container {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-hero-image {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .vecado-research-div-top {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .vecado-research-flex-container-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .vecado-reserach-div-1 {
+    height: 300px;
+  }
+
+  .vecado-reserach-div-2 {
+    height: 300px;
+  }
+
+  .vecado-reserach-div-3 {
+    height: 300px;
+  }
+
+  .vecado-planning-div-top {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .vecado-planning-flex-container-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .ideation-top-bar-copy {
+    margin-top: -15px;
+    margin-left: -21px;
+  }
+
+  .vecado-ideation-top-bar {
+    margin-top: -15px;
+    margin-left: -21px;
+  }
+
+  .vecado-ideation-flex-container {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-design-div-top {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .vecado-flex-container-2 {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-design-div-1 {
+    height: 300px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+
+  .vecado-design-div-2 {
+    height: 300px;
+  }
+
+  .vecado-design-div-3 {
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .sushi-ai-image {
+    display: block;
+    width: 90%;
+    padding-right: 0px;
+    padding-left: 49px;
+    text-align: left;
+  }
+
+  .magical-library {
+    display: block;
+    width: 90%;
+    padding-right: 0px;
+    padding-left: 49px;
+    text-align: left;
+  }
+
+  .sushi-ai-image-mask {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .campery-overview {
+    margin-bottom: 96px;
+    padding: 40px 20px;
+  }
+
+  .campery-overview-top-bar {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .campery-overview-flex-container {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-overview-hero-image {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .campery-preliminaries {
+    padding: 40px 20px;
+  }
+
+  .campery-preliminaries-top-bar {
+    margin-top: -15px;
+    margin-left: -21px;
+  }
+
+  .campery-flex-container-2 {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-hero-image-mask {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .campery-research {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-research-div-top {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .campery-research-flex-container-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .campery-reserach-div-1 {
+    height: 300px;
+  }
+
+  .campery-reserach-div-2 {
+    height: 300px;
+  }
+
+  .campery-reserach-div-3 {
+    height: 300px;
+  }
+
+  .campery-research-ayo-section-1 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-research-ayo-section-2 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-research-rowan-section-1 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-research-rowan-section-2 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-research-joel-section-1 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-research-joel-section-2 {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-planning {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-planning-div-top {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .campery-planning-flex-container-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .campery-ideation {
+    padding: 40px 20px;
+  }
+
+  .campery-ideation-top-bar {
+    margin-top: -15px;
+    margin-left: -21px;
+  }
+
+  .campery-ideation-flex-container {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-design {
+    position: static;
+    margin-top: 0px;
+    padding: 40px 20px;
+  }
+
+  .campery-design-div-top {
+    margin-top: 20px;
+    margin-left: -21px;
+  }
+
+  .campery-flex_container_2 {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-design-div-1 {
+    height: 300px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+
+  .campery-design-div-2 {
+    height: 300px;
+  }
+
+  .campery-nav_top {
+    padding: 40px 20px;
+  }
+
+  .campery-statistic {
+    padding: 40px 20px;
+  }
+
+  .cards-grid-container {
+    max-width: none;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .campery-competitive-analysis {
+    padding: 40px 20px;
+  }
+
+  .competitive-cards-grid-container {
+    max-width: none;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .campery-solutions {
+    margin-top: 0px;
+    padding: 40px 20px 136px;
+  }
+
+  .campery-research-flex-container-main-copy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .campery-solution-div-1 {
+    height: 300px;
+  }
+
+  .campery-solution-div-2 {
+    height: 300px;
+  }
+
+  .campery-solution-div-3 {
+    height: 300px;
+  }
+
+  .gallery {
+    padding: 40px 20px;
+  }
+
+  .gallery-grid-container {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .campery-athul-reserach-gallery-1 {
+    padding: 40px 20px;
+  }
+
+  .campery-athul-reserach-gallery-2 {
+    padding: 40px 20px;
+  }
+
+  .campery-athul-task-flow {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .campery-levi-reserach-gallery-1 {
+    padding: 40px 20px;
+  }
+
+  .campery-levi-reserach-gallery-2 {
+    padding: 40px 20px;
+  }
+
+  .campery-levi-task-flow {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .campery-joel-reserach-gallery-1 {
+    padding: 40px 20px;
+  }
+
+  .campery-joel-reserach-gallery-2 {
+    padding: 40px 20px;
+  }
+
+  .campery-joel-task-flow {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .campery-app-main-image {
+    height: 300px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+
+  .campery-app-park-description-image {
+    height: 300px;
+  }
+
+  .campery-app-guides-image {
+    height: 300px;
+  }
+
+  .campery-summary {
+    padding: 40px 20px;
+  }
+
+  .campery-summary-top-bar-copy {
+    margin-top: -15px;
+    margin-left: -21px;
+  }
+
+  .campery-summary-container {
+    margin-top: 200px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-summary-mask {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .campery-levi-reserach-gallery-1-1 {
+    padding: 40px 20px;
+  }
+
+  .campery-levi-reserach-gallery-2-1 {
+    padding: 40px 20px;
+  }
+
+  .campery-levi-task-flow-1 {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .campery-athul-reserach-gallery-2-1 {
+    padding: 40px 20px;
+  }
+
+  .campery-athul-reserach-gallery-1-1 {
+    padding: 40px 20px;
+  }
+
+  .campery-athul-task-flow-1 {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2881,23 +7789,77 @@
     text-align: center;
   }
 
-  .image {
+  .main-logo {
     top: 72px;
     bottom: 0px;
-    margin-top: 0px;
-    margin-left: 12%;
+    width: 50px;
+    max-width: 100%;
+    margin-top: -51px;
+    margin-left: 0%;
   }
 
   .left-portfolio-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 0px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     background-position: 100% 50%;
   }
 
   .hero-image-mask {
     height: auto;
     margin-top: 0px;
+    margin-left: -57px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -o-object-fit: contain;
     object-fit: contain;
+  }
+
+  .heading-2 {
+    text-align: center;
+  }
+
+  .paragraph-2 {
+    text-align: center;
+  }
+
+  .button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .footer {
@@ -2929,6 +7891,10 @@
 
   .list {
     text-align: center;
+  }
+
+  .div-block-3 {
+    margin-top: 41px;
   }
 
   .sticky-nav {
@@ -2965,6 +7931,32 @@
 
   .button-2 {
     position: static;
+  }
+
+  .div-block-5 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .div-block-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .list-item {
@@ -3088,6 +8080,27 @@
   }
 
   .centered-container-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     text-align: left;
   }
 
@@ -3265,12 +8278,14 @@
   }
 
   .list-2 {
+    margin-top: -17px;
     text-align: center;
   }
 
   .flex-container-2 {
     margin-top: 100px;
     padding-top: 0px;
+    padding-left: 50px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3288,8 +8303,8 @@
   }
 
   .text-block {
-    margin-left: 98px;
-    font-size: 30px;
+    margin-left: 122px;
+    font-size: 25px;
   }
 
   .div-block-8 {
@@ -3316,6 +8331,10 @@
 
   .heading-4 {
     margin-left: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     text-align: center;
   }
 
@@ -3391,8 +8410,8 @@
 
   .prelimiaries-text {
     margin-top: 111px;
-    margin-left: -188px;
-    font-size: 100px;
+    margin-left: -167px;
+    font-size: 95px;
   }
 
   .design-div-top {
@@ -3410,7 +8429,7 @@
   }
 
   .overview-text {
-    margin-left: 3px;
+    margin-left: 15px;
     font-size: 40px;
   }
 
@@ -3458,7 +8477,7 @@
 
   .design-div-7 {
     height: 60px;
-    margin-top: 120px;
+    margin-top: 128px;
     padding-top: 0px;
   }
 
@@ -3466,6 +8485,7 @@
     display: block;
     width: 200px;
     height: 300px;
+    margin-top: -20px;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-orient: vertical;
@@ -3549,6 +8569,7 @@
   .research {
     margin-top: 0px;
     padding-top: 0px;
+    padding-bottom: 65px;
   }
 
   .reserach-div-1 {
@@ -3663,6 +8684,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: -155px;
     margin-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3685,6 +8707,7 @@
     display: -ms-flexbox;
     display: flex;
     margin-left: 0px;
+    padding-top: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3707,6 +8730,9 @@
 
   .overview-hero-image {
     height: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+    margin-left: 49px;
     -o-object-fit: contain;
     object-fit: contain;
   }
@@ -3810,6 +8836,7 @@
 
   .planning-text {
     margin-left: 3px;
+    color: #254438;
     font-size: 40px;
   }
 
@@ -3817,6 +8844,7 @@
     margin-top: 107px;
     margin-left: 38px;
     padding-bottom: 0px;
+    color: #254438;
     font-size: 100px;
   }
 
@@ -3844,13 +8872,13 @@
   }
 
   .ideation-text-block {
-    margin-left: 98px;
+    margin-left: 130px;
     font-size: 30px;
   }
 
   .ideation-text {
     margin-top: 111px;
-    margin-left: -188px;
+    margin-left: -163px;
     font-size: 100px;
   }
 
@@ -3871,6 +8899,1718 @@
     padding-top: 0px;
     padding-bottom: 185px;
   }
+
+  .vecado-nav-top {
+    margin-bottom: -1650px;
+    padding-bottom: 0px;
+    background-position: 50% 0%;
+    background-size: 400px 250px;
+  }
+
+  .vecado-overview {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .vecado-preliminaries {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .vecado-research {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .vecado-research-steven-section-1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 177px;
+  }
+
+  .vecado-research-steven-section-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .vecado-research-ariel-section-1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .vecado-research-ariel-section-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .vecado-research-amaya-section-1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 187px;
+  }
+
+  .vecado-research-amaya-section-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .vecado-planning {
+    margin-top: -182px;
+    padding-top: 0px;
+  }
+
+  .vecado-ideation {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .vecado-design {
+    margin-top: 0px;
+  }
+
+  .vecado-overview-flex-container {
+    margin-top: 0px;
+  }
+
+  .vecado-overview-div-7 {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .vecado-preliminaries-top-bar {
+    margin-top: -130px;
+  }
+
+  .vecado-preliminaries-top {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .vecado-text-block {
+    margin-left: 98px;
+    font-size: 30px;
+  }
+
+  .vecado-div-block {
+    margin-left: 169px;
+  }
+
+  .vecado-prelimiaries-text {
+    margin-top: 111px;
+    margin-left: -188px;
+    font-size: 100px;
+  }
+
+  .vecado-flex-container {
+    margin-top: 100px;
+    padding-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-hero-image {
+    height: auto;
+    margin-top: 0px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .vecado-preliminaries-image {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .vecado-div-block-10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-heading-3 {
+    margin-top: 48px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .vecado-paragraph-3 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .vecado-heading-4 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .paragraph-3-copy {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .vecado-research-div-top {
+    margin-top: -226px;
+    padding-top: 0px;
+  }
+
+  .overview-div-7-copy {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .vecado-overview-div-9 {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .vecado-overview-div-8 {
+    margin-left: 169px;
+  }
+
+  .vecado-overview-text {
+    margin-left: 3px;
+    font-size: 40px;
+  }
+
+  .vecado-overview-text-block {
+    margin-top: 107px;
+    margin-left: 38px;
+    padding-bottom: 0px;
+    font-size: 100px;
+  }
+
+  .vecado-research-div-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vecado-reserach-div-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-reserach-div-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .vecado-reserach-div-3 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .vecado-planning-div-top {
+    margin-top: -89px;
+    padding-top: 0px;
+  }
+
+  .planning-orange-rectangle-copy {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .vecado-planning-orange-rectangle {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .vecado-planning_number {
+    margin-left: 169px;
+  }
+
+  .vecado-planning-text-block {
+    margin-top: 107px;
+    margin-left: 38px;
+    padding-bottom: 0px;
+    font-size: 100px;
+  }
+
+  .ideation-top-bar-copy {
+    margin-top: -130px;
+  }
+
+  .vecado-ideation-top-bar {
+    margin-top: -130px;
+  }
+
+  .vecado-ideation-top {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .vecado-ideation-block-8 {
+    margin-left: 169px;
+  }
+
+  .vecado-ideation-text-block {
+    margin-left: 98px;
+    font-size: 30px;
+  }
+
+  .vecado-ideation-text {
+    margin-top: 111px;
+    margin-left: -188px;
+    font-size: 100px;
+  }
+
+  .vecado-ideation-flex-container {
+    height: 200px;
+    margin-top: 100px;
+    padding-top: 0px;
+  }
+
+  .vecado-design-div-top {
+    margin-top: -132px;
+  }
+
+  .vecado-design-div-7 {
+    height: 60px;
+    margin-top: 128px;
+    padding-top: 0px;
+  }
+
+  .vecado-design-div-8 {
+    margin-left: 169px;
+  }
+
+  .vecado-flex-container-2 {
+    margin-top: 100px;
+    padding-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .vecado-design-div-1 {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vecado-design-div-2 {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vecado-design-div-3 {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .resource-app-image {
+    margin-left: 124px;
+  }
+
+  .sushi-ai-design-text {
+    margin-left: 28px;
+    font-size: 40px;
+  }
+
+  .sushi-ai-design-text-block {
+    margin-top: 121px;
+    margin-left: 28px;
+    padding-bottom: 0px;
+    font-size: 100px;
+  }
+
+  .sushi-ai-main-phone {
+    width: 300px;
+    height: 200px;
+    margin-left: -479px;
+  }
+
+  .image-4 {
+    margin-top: 187px;
+    margin-left: 0px;
+    padding-left: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .div-block-18 {
+    width: 100%;
+    height: 400px;
+  }
+
+  .magical-library {
+    margin-left: 100px;
+  }
+
+  .mets-museum-image {
+    margin-left: 171px;
+  }
+
+  .sushi-ai-image-mask {
+    height: auto;
+    margin-top: 0px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .campery-hero-image {
+    margin-left: 102px;
+  }
+
+  .campery-overview {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .campery-overview-flex-container {
+    margin-top: 0px;
+  }
+
+  .campery-overview-div-7 {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .campery-overview_div_8 {
+    margin-left: 169px;
+  }
+
+  .campery-overview-text {
+    margin-left: 5px;
+    font-size: 40px;
+  }
+
+  .campery-overview-text-block {
+    margin-top: 107px;
+    margin-left: 38px;
+    padding-bottom: 0px;
+    font-size: 100px;
+  }
+
+  .campery-overview-div-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-overview-div-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -155px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-overview-div-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+    padding-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .campery-overview-hero-image {
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+    margin-left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .campery-div-block-18 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 143%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: -140px;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    background-size: contain;
+  }
+
+  .campery-preliminaries {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .campery-preliminaries-top-bar {
+    margin-top: -120px;
+  }
+
+  .campery-preliminaries-top {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .campery-div-block-8 {
+    margin-left: 169px;
+  }
+
+  .campery-prelimiaries-text {
+    margin-top: 111px;
+    margin-left: -167px;
+    font-size: 95px;
+  }
+
+  .campery-flex-container-2 {
+    margin-top: 150px;
+    padding-top: 0px;
+    padding-left: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-hero-image-mask {
+    height: auto;
+    margin-top: 35px;
+    margin-left: 70px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .campery-div-block-14 {
+    margin-top: 347px;
+    margin-left: -50px;
+    padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .campery-research {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 65px;
+  }
+
+  .campery-research-div-top {
+    margin-top: -137px;
+    margin-left: -320px;
+    padding-top: 0px;
+  }
+
+  .overview-div-7-copy {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .campery-overview-div {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .overview-div-8-copy {
+    margin-left: 169px;
+  }
+
+  .campery-research-div-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-reserach-div-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-reserach-div-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .campery-reserach-div-3 {
+    width: 300px;
+    height: 400px;
+    margin-top: -9px;
+    margin-left: 0px;
+  }
+
+  .campery-research-ayo-section-1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 177px;
+  }
+
+  .campery-research-ayo-section-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .campery-research-rowan-section-1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .campery-research-rowan-section-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .campery-research-joel-section-1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 187px;
+  }
+
+  .campery-research-joel-section-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 185px;
+  }
+
+  .campery-planning {
+    margin-top: -182px;
+    padding-top: 0px;
+  }
+
+  .campery-planning-div-top {
+    margin-top: -89px;
+    padding-top: 0px;
+  }
+
+  .campery-planning-orange-rectangle {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .campery-planning_number {
+    margin-left: 169px;
+  }
+
+  .campery-planning-div-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-ideation {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .campery-ideation-top-bar {
+    margin-top: -130px;
+  }
+
+  .campery-ideation-top {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .campery-ideation-block-8 {
+    margin-left: 169px;
+  }
+
+  .campery-ideation-flex-container {
+    height: 200px;
+    margin-top: 100px;
+    padding-top: 0px;
+  }
+
+  .campery-ideation-text-block {
+    margin-left: 130px;
+    font-size: 30px;
+  }
+
+  .campery-ideation-text {
+    margin-top: 111px;
+    margin-left: -163px;
+    font-size: 100px;
+  }
+
+  .campery-design {
+    margin-top: 0px;
+  }
+
+  .campery-design-div-top {
+    margin-top: -132px;
+  }
+
+  .campery-flex_container_2 {
+    margin-top: 100px;
+    padding-top: 0px;
+    padding-left: 50px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-design-div-7 {
+    height: 60px;
+    margin-top: 128px;
+    padding-top: 0px;
+  }
+
+  .campery-design-div-8 {
+    margin-left: 169px;
+  }
+
+  .campery-design-div-1 {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-design-div-2 {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-nav_top {
+    margin-bottom: -1650px;
+    padding-bottom: 0px;
+    background-position: 50% 0%;
+    background-size: 400px 250px;
+  }
+
+  .cards-grid-container {
+    margin: 266px 0px 50px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .cards-image-mask {
+    margin-top: -275px;
+    margin-bottom: 0px;
+    padding-top: 0%;
+  }
+
+  .cards-image {
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 147px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .heading-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 52px;
+    margin-right: auto;
+    margin-left: 1px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    font-size: 25px;
+  }
+
+  .campery-competitive-analysis {
+    padding-bottom: 55px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .competitive-cards-grid-container {
+    margin-top: -84px;
+    margin-right: 0px;
+    margin-left: -169px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .competitive-div-block-20 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .competitive-cards-image-mask {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    height: 500px;
+    margin-right: 0px;
+    padding-top: 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .competitive-card-image {
+    width: 300px;
+    height: 400px;
+    margin-left: -20px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .campery-solutions {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 65px;
+  }
+
+  .campery-solution-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-solution-div-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-solution-div-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .campery-solution-div-3 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .centered-container-3 {
+    display: block;
+    margin-top: 22px;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .gallery-grid-container {
+    display: -ms-grid;
+    display: grid;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 35px;
+    padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    justify-items: stretch;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    grid-auto-flow: row;
+    grid-auto-columns: minmax(129px, 0.75fr);
+    grid-column-gap: 41px;
+    grid-row-gap: 6px;
+    grid-template-areas: ".";
+    -ms-grid-columns: minmax(127px, 0.25fr);
+    grid-template-columns: minmax(127px, 0.25fr);
+    -ms-grid-rows: auto 6px auto;
+    grid-template-rows: auto auto;
+  }
+
+  .paragraph-4 {
+    margin-right: 48px;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+
+  .paragraph-5 {
+    font-size: 12px;
+  }
+
+  .heading-7 {
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .heading-8 {
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .campery-goals-list {
+    font-size: 12px;
+  }
+
+  .campery-demographics {
+    font-size: 12px;
+  }
+
+  .campery-athul-task {
+    text-align: left;
+  }
+
+  .campery-athul-task-flow {
+    margin-right: 0px;
+    margin-left: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .campery-levi-task-flow {
+    margin-right: 0px;
+    margin-left: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  .campery-joel-reserach-gallery-1 {
+    padding-top: 0px;
+    padding-left: 0px;
+    grid-auto-flow: column;
+    grid-column-gap: 0px;
+  }
+
+  .campery-joel-reserach-gallery-2 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    grid-auto-flow: row;
+    grid-column-gap: 0px;
+    -ms-grid-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    grid-template-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    -ms-grid-rows: auto minmax(auto, 1.5fr);
+    grid-template-rows: auto minmax(auto, 1.5fr);
+  }
+
+  .campery-research-joel-image {
+    width: 350px;
+    height: 400px;
+  }
+
+  .campery-joel-personality-image {
+    width: auto;
+    height: 150px;
+  }
+
+  .campery-joel-task-flow {
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .campery-ideation-color {
+    margin-bottom: 0px;
+  }
+
+  .campery-ideation-icons {
+    width: auto;
+    background-size: contain;
+  }
+
+  .campery-app-main-image {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-app-park-description-image {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-app-guides-image {
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .campery-summary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .campery-summary-top-bar-copy {
+    margin-top: -130px;
+  }
+
+  .campery-summary-top {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .campery-summary-block-8 {
+    margin-left: 169px;
+  }
+
+  .campery-summary-text {
+    margin-top: 111px;
+    margin-left: -167px;
+    font-size: 95px;
+  }
+
+  .campery-summary-container {
+    margin-top: 100px;
+    padding-top: 0px;
+    padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .campery-summary-mask {
+    height: auto;
+    margin-top: 0px;
+    margin-left: -57px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .campery-summary-block {
+    margin-left: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-summary-header {
+    margin-top: 48px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .campery-summary-p {
+    margin-left: 0px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    text-align: center;
+  }
+
+  .campery-summary-bottom-div {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-summary-top_div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .campery-levi-reserach-gallery-1-1 {
+    padding-top: 0px;
+    padding-left: 0px;
+    grid-auto-flow: column;
+    grid-column-gap: 0px;
+  }
+
+  .campery-levi-reserach-gallery-2-1 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    grid-auto-flow: row;
+    grid-column-gap: 0px;
+    -ms-grid-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    grid-template-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    -ms-grid-rows: auto minmax(auto, 1.5fr);
+    grid-template-rows: auto minmax(auto, 1.5fr);
+  }
+
+  .campery-research-levi-image-1 {
+    width: 350px;
+    height: 400px;
+  }
+
+  .campery-research-joel-image-copy {
+    width: 350px;
+    height: 400px;
+  }
+
+  .campery-levi-personality-image-1 {
+    width: auto;
+    height: 150px;
+  }
+
+  .campery-levi-task-flow-1 {
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .campery-athul-reserach-gallery-2-1 {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    grid-auto-flow: row;
+    grid-column-gap: 0px;
+    -ms-grid-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    grid-template-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    -ms-grid-rows: auto minmax(auto, 1.5fr);
+    grid-template-rows: auto minmax(auto, 1.5fr);
+  }
+
+  .campery-athul-reserach-gallery-1-1 {
+    padding-top: 0px;
+    padding-left: 0px;
+    grid-auto-flow: column;
+    grid-column-gap: 0px;
+  }
+
+  .campery-research-athul-image-1 {
+    width: 350px;
+    height: 400px;
+  }
+
+  .campery-athul-task-flow-1 {
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .campery-athul-personality-image-1 {
+    width: auto;
+    height: 150px;
+  }
+
+  .campery-research-heading-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: 158px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    font-size: 25px;
+  }
+
+  .div-block-22 {
+    height: 250px;
+    margin-top: -333px;
+  }
+
+  .link-block {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logo-link {
+    left: 26px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+  }
 }
 
 #w-node-_35b586ec-dd83-5862-fd90-3eecc924bfef-e4175e58 {
@@ -3881,5 +10621,567 @@
 #w-node-_35b586ec-dd83-5862-fd90-3eecc924bff1-e4175e58 {
   -ms-grid-column-align: start;
   justify-self: start;
+}
+
+#w-node-e61f5785-5336-094e-d4ef-c064314096ee-cc0f9b27 {
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-e61f5785-5336-094e-d4ef-c064314096ef-cc0f9b27 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-e61f5785-5336-094e-d4ef-c064314096f9-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-e61f5785-5336-094e-d4ef-c06431409703-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-e61f5785-5336-094e-d4ef-c06431409705-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-e61f5785-5336-094e-d4ef-c06431409710-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-_54a23478-5356-089d-1ee9-1a2ec7d352e3-cc0f9b27 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-_54a23478-5356-089d-1ee9-1a2ec7d352e7-cc0f9b27 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_168e69f3-8827-952b-27a1-e2255139d633-cc0f9b27 {
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_168e69f3-8827-952b-27a1-e2255139d634-cc0f9b27 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-_168e69f3-8827-952b-27a1-e2255139d63e-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-_168e69f3-8827-952b-27a1-e2255139d648-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-_168e69f3-8827-952b-27a1-e2255139d64a-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-_168e69f3-8827-952b-27a1-e2255139d655-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-_463d6757-4596-d74f-4d78-2581750e472f-cc0f9b27 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-_463d6757-4596-d74f-4d78-2581750e4733-cc0f9b27 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7cc-cc0f9b27 {
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7cd-cc0f9b27 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7d7-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7e1-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7e3-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7ee-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-_6381be2c-24ab-4710-afba-0dcd112779a5-cc0f9b27 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-_6381be2c-24ab-4710-afba-0dcd112779a9-cc0f9b27 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_9a6221ca-902e-53ac-097f-5294b2750ca8-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-_9a6221ca-902e-53ac-097f-5294b2750cb2-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-_9a6221ca-902e-53ac-097f-5294b2750cb4-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-_9a6221ca-902e-53ac-097f-5294b2750cbf-cc0f9b27 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 5;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+}
+
+#w-node-_35b586ec-dd83-5862-fd90-3eecc924bfef-9368fa08 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_35b586ec-dd83-5862-fd90-3eecc924bff1-9368fa08 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_053fca82-8bbc-fe10-2b48-5cc0c4941459-cc0f9b27 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_053fca82-8bbc-fe10-2b48-5cc0c4941460-cc0f9b27 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_053fca82-8bbc-fe10-2b48-5cc0c4941467-cc0f9b27 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_8b97c4c9-7847-e4d7-b373-0359981edf60-cc0f9b27 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_8b97c4c9-7847-e4d7-b373-0359981edf63-cc0f9b27 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-e61f5785-5336-094e-d4ef-c064314096ef-cc0f9b27 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-e61f5785-5336-094e-d4ef-c064314096f9-cc0f9b27 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-e61f5785-5336-094e-d4ef-c06431409703-cc0f9b27 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-e61f5785-5336-094e-d4ef-c06431409705-cc0f9b27 {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 5;
+    -ms-grid-row: 4;
+    grid-row-start: 4;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_54a23478-5356-089d-1ee9-1a2ec7d352e3-cc0f9b27 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  #w-node-_54a23478-5356-089d-1ee9-1a2ec7d352e7-cc0f9b27 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+  }
+
+  #w-node-_168e69f3-8827-952b-27a1-e2255139d634-cc0f9b27 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-_168e69f3-8827-952b-27a1-e2255139d63e-cc0f9b27 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_168e69f3-8827-952b-27a1-e2255139d648-cc0f9b27 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_168e69f3-8827-952b-27a1-e2255139d64a-cc0f9b27 {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 5;
+    -ms-grid-row: 4;
+    grid-row-start: 4;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_463d6757-4596-d74f-4d78-2581750e472f-cc0f9b27 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  #w-node-_463d6757-4596-d74f-4d78-2581750e4733-cc0f9b27 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+  }
+
+  #w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7cd-cc0f9b27 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7d7-cc0f9b27 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7e1-cc0f9b27 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7e3-cc0f9b27 {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 5;
+    -ms-grid-row: 4;
+    grid-row-start: 4;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_6381be2c-24ab-4710-afba-0dcd112779a5-cc0f9b27 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  #w-node-_6381be2c-24ab-4710-afba-0dcd112779a9-cc0f9b27 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+  }
+
+  #w-node-_9a6221ca-902e-53ac-097f-5294b2750cb4-cc0f9b27 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_9a6221ca-902e-53ac-097f-5294b2750cbb-cc0f9b27 {
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  #w-node-_9a6221ca-902e-53ac-097f-5294b2750cbf-cc0f9b27 {
+    -ms-grid-column-span: 1;
+    grid-column-end: 3;
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 5;
+    -ms-grid-row: 4;
+    grid-row-start: 4;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
 }
 
