@@ -9707,7 +9707,7 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-image: url('../images/Image-1.png');
+  background-image: url('../images/Image-1_4.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -9720,7 +9720,7 @@
   margin-left: 10px;
   padding-bottom: 0px;
   padding-left: 0px;
-  background-image: url('../images/Group.png');
+  background-image: url('../images/Group_1.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -9736,7 +9736,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Image.png');
+  background-image: url('../images/Image_4.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -9858,8 +9858,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -1180px;
-  margin-left: -1474px;
+  margin-top: -1464px;
+  margin-left: -1900px;
   padding-top: 0px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -9943,7 +9943,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px auto -90px;
+  margin: 0px auto -90px 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -10058,6 +10058,177 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.campery-prelimiaries-text-1 {
+  position: static;
+  margin-left: -262px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.campery-text-block-1 {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.campery-body {
+  background-color: #254438;
+}
+
+.campery-preliminaries-top-1 {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  height: 89px;
+  padding: 0px;
+  background-color: #b2bdbb;
+}
+
+.resourcery-text-block {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.resourcery-ideation-top-1 {
+  position: absolute;
+  left: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 89px;
+  padding: 0px;
+  background-color: #242424;
+}
+
+.resourcery-ideation-text-1 {
+  position: static;
+  margin-left: -262px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #417130;
+  font-size: 148px;
+  font-weight: 700;
+}
+
+.resourcery-ideation-text-block-1 {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #417130;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.mets-tag-p {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #2a4765;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.mets-design-text-block-1 {
+  position: static;
+  margin-left: -93px;
+  font-family: Roboto, sans-serif;
+  color: #f4e9d3;
+  font-size: 148px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
@@ -18392,6 +18563,57 @@
 
   .library-website-images-bottom {
     margin-bottom: -93px;
+  }
+
+  .campery-prelimiaries-text-1 {
+    margin-top: 111px;
+    margin-left: -167px;
+    font-size: 95px;
+  }
+
+  .campery-text-block-1 {
+    margin-left: 122px;
+    font-size: 25px;
+  }
+
+  .campery-preliminaries-top-1 {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .resourcery-text-block {
+    margin-left: 122px;
+    font-size: 25px;
+  }
+
+  .resourcery-ideation-top-1 {
+    height: 60px;
+    margin-top: 120px;
+    padding-top: 0px;
+  }
+
+  .resourcery-ideation-text-1 {
+    margin-top: 111px;
+    margin-left: -163px;
+    font-size: 100px;
+  }
+
+  .resourcery-ideation-text-block-1 {
+    margin-left: 130px;
+    font-size: 40px;
+  }
+
+  .mets-tag-p {
+    margin-left: 122px;
+    font-size: 25px;
+  }
+
+  .mets-design-text-block-1 {
+    margin-top: 121px;
+    margin-left: 28px;
+    padding-bottom: 0px;
+    font-size: 100px;
   }
 }
 
