@@ -8322,7 +8322,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0px;
+  margin-top: -137px;
   margin-left: 1350px;
   padding-top: 0px;
   -webkit-box-pack: start;
@@ -9312,7 +9312,7 @@
   margin-bottom: 10px;
   margin-left: 0px;
   font-family: Roboto, sans-serif;
-  color: #1b1f3a;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -9320,7 +9320,7 @@
   margin-top: 0px;
   margin-left: 0px;
   font-family: Roboto, sans-serif;
-  color: #1b1f3a;
+  color: #fff;
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
@@ -9471,6 +9471,7 @@
 
 .library-prelim-hero-image {
   position: absolute;
+  left: 86px;
   display: inline-block;
   overflow: visible;
   width: auto;
@@ -9765,8 +9766,8 @@
   grid-template-columns: 0.75fr 1fr;
   -ms-grid-rows: auto minmax(auto, 1fr);
   grid-template-rows: auto minmax(auto, 1fr);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2a4765), to(#2a4765));
-  background-image: linear-gradient(180deg, #2a4765, #2a4765);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1b1f3a), to(#1b1f3a));
+  background-image: linear-gradient(180deg, #1b1f3a, #1b1f3a);
   color: #fff;
 }
 
@@ -9822,8 +9823,8 @@
   grid-template-columns: 0.75fr 1fr;
   -ms-grid-rows: auto minmax(auto, 1fr);
   grid-template-rows: auto minmax(auto, 1fr);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2a4765), to(#2a4765));
-  background-image: linear-gradient(180deg, #2a4765, #2a4765);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1b1f3a), to(#1b1f3a));
+  background-image: linear-gradient(180deg, #1b1f3a, #1b1f3a);
   color: #fff;
 }
 
@@ -10229,6 +10230,87 @@
   color: #f4e9d3;
   font-size: 148px;
   font-weight: 700;
+}
+
+.campery-div-block-19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 45px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.sushi-ai-ia-map {
+  width: 100%;
+  height: 450px;
+  margin-top: 96px;
+  background-image: url('../images/Sushi-ai-ia-map.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-block-15-copy {
+  width: 100%;
+  height: 450px;
+  margin-top: 96px;
+  background-image: url('../images/Campery-IA-Map.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vecado-ia-map {
+  width: 100%;
+  height: 450px;
+  margin-top: 96px;
+  background-image: url('../images/Vecado-ai-map.png');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.resourcery-prelim-paragraph-top {
+  margin-top: 0px;
+  margin-left: 93px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.library-div-block-18-1 {
+  width: 550px;
+  height: 500px;
+  margin-right: 53px;
+  margin-left: -92px;
+  padding-left: 0px;
+  background-image: url('../images/Library-overview-image.png');
+  background-position: 0% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 991px) {
@@ -11406,6 +11488,21 @@
 
   .library-flex_container_2 {
     margin-top: 0px;
+  }
+
+  .sushi-ai-ia-map {
+    width: 98%;
+    margin-top: 51px;
+  }
+
+  .div-block-15-copy {
+    width: 98%;
+    margin-top: 51px;
+  }
+
+  .vecado-ia-map {
+    width: 98%;
+    margin-top: 51px;
   }
 }
 
@@ -18614,6 +18711,77 @@
     margin-left: 28px;
     padding-bottom: 0px;
     font-size: 100px;
+  }
+
+  .campery-div-block-19 {
+    margin-top: 69px;
+    margin-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .sushi-ai-ia-map {
+    height: 200px;
+  }
+
+  .div-block-15-copy {
+    height: 200px;
+  }
+
+  .vecado-ia-map {
+    height: 200px;
+  }
+
+  .resourcery-prelim-paragraph-top {
+    display: block;
+    margin-right: auto;
+    margin-left: 33px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .library-div-block-18-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 143%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: -140px;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    background-size: contain;
   }
 }
 
