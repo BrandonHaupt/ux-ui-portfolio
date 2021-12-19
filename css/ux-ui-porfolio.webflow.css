@@ -182,12 +182,14 @@
 }
 
 .hero-image-mask {
-  width: 100%;
-  margin-left: 40px;
+  width: 1300px;
+  height: 100%;
+  margin-right: 0px;
+  margin-left: -8px;
 }
 
 .hero-image {
-  width: 80%;
+  width: 70%;
   height: 100%;
   margin-left: 101px;
   padding-right: 0px;
@@ -212,6 +214,7 @@
 .paragraph-2 {
   overflow: visible;
   min-width: 10px;
+  margin-right: 61px;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
@@ -609,6 +612,7 @@
 }
 
 .centered-container-2 {
+  position: relative;
   margin-top: 0px;
   padding-left: 0px;
   -webkit-box-flex: 1;
@@ -831,7 +835,7 @@
 }
 
 .text-block {
-  position: static;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3280,6 +3284,7 @@
 }
 
 .resource-app-block {
+  margin-right: 76px;
   margin-left: 0px;
   padding-left: 0px;
   -webkit-box-ordinal-group: 2;
@@ -3296,6 +3301,7 @@
   display: block;
   width: 70%;
   height: 100%;
+  margin-right: 0px;
   margin-left: 0px;
   padding-right: 0px;
   -webkit-box-flex: 0;
@@ -3413,7 +3419,7 @@
 }
 
 .magical-library {
-  width: 110%;
+  width: 80%;
   height: 100%;
   padding-right: 0px;
   -webkit-box-flex: 0;
@@ -3458,7 +3464,8 @@
   display: block;
   width: 95%;
   height: 100%;
-  margin-left: -75px;
+  margin-right: -94px;
+  margin-left: 0px;
   padding-right: 0px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0.5 auto;
@@ -3675,18 +3682,18 @@
 }
 
 .campery-preliminaries-top-bar {
-  position: absolute;
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
-  margin-left: 1350px;
+  margin-left: 0px;
   padding-top: 0px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   text-align: center;
 }
 
@@ -3704,15 +3711,15 @@
 }
 
 .campery-div-block-8 {
-  position: absolute;
-  left: auto;
-  top: auto;
+  position: relative;
+  left: 175px;
+  top: -36px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 252px;
-  padding-top: 30px;
+  margin-left: 0px;
+  padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -3727,6 +3734,10 @@
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: transparent;
+  -webkit-transform: translate3d(0px, 0px, 57px);
+  transform: translate3d(0px, 0px, 57px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .campery-prelimiaries-text {
@@ -3805,12 +3816,12 @@
 }
 
 .campery-research-div-top {
-  position: absolute;
+  position: relative;
   top: auto;
   display: block;
   margin-top: -127px;
   margin-bottom: 0px;
-  margin-left: -1900px;
+  margin-left: 0px;
   padding-top: 0px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -4273,23 +4284,27 @@
 }
 
 .campery-ideation-top-bar {
-  position: absolute;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
-  margin-left: 1500px;
+  margin-left: 0px;
   padding-top: 0px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-transform: translate3d(0px, 0px, -300px);
+  transform: translate3d(0px, 0px, -300px);
   text-align: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .campery-ideation-top {
-  position: absolute;
+  position: relative;
   left: 0px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4298,19 +4313,32 @@
   width: 420px;
   height: 89px;
   padding: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #b2bdbb;
 }
 
 .campery-ideation-block-8 {
-  position: absolute;
-  left: auto;
-  top: auto;
+  position: relative;
+  left: 105px;
+  top: -33px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 252px;
-  padding-top: 30px;
+  margin-left: 0px;
+  padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -4325,6 +4353,10 @@
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: transparent;
+  -webkit-transform: translate3d(0px, 0px, 19px);
+  transform: translate3d(0px, 0px, 19px);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .campery-ideation-flex-container {
@@ -4388,13 +4420,18 @@
 }
 
 .campery-ideation-text {
-  position: static;
+  position: relative;
+  left: 156px;
   margin-left: -262px;
   padding-left: 0px;
+  -webkit-transform: translate3d(0px, 0px, 300px);
+  transform: translate3d(0px, 0px, 300px);
   font-family: Roboto, sans-serif;
   color: #242424;
   font-size: 148px;
   font-weight: 700;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .campery-design {
@@ -4648,14 +4685,16 @@
 }
 
 .cards-grid-container {
+  position: relative;
+  left: -595px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 550px;
-  height: 961px;
-  margin-right: 0px;
-  margin-left: -220px;
+  height: 800px;
+  margin-right: auto;
+  margin-left: 467px;
   padding-right: 0px;
   padding-left: 0px;
   -webkit-box-pack: justify;
@@ -4676,10 +4715,12 @@
 
 .cards-image-mask {
   position: relative;
+  left: auto;
   overflow: visible;
   width: 550px;
-  height: 700px;
-  margin-right: -53px;
+  height: 600px;
+  margin-right: -172px;
+  margin-left: -13px;
   padding-top: 100%;
   padding-right: 0px;
   padding-left: 0px;
@@ -4694,10 +4735,11 @@
   bottom: 0%;
   overflow: hidden;
   width: 500px;
-  height: 700px;
+  height: 600px;
   max-width: none;
   margin: auto 0px;
   padding-top: 0px;
+  padding-right: 0px;
   padding-left: 0px;
   -o-object-fit: contain;
   object-fit: contain;
@@ -4715,7 +4757,7 @@
 
 .div-block-20 {
   width: 550px;
-  height: 961px;
+  height: 500px;
   padding-left: 0px;
 }
 
@@ -5360,7 +5402,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 600px;
-  height: 1000px;
+  height: 700px;
   margin-top: -50px;
   margin-right: auto;
   margin-left: 300px;
@@ -5387,8 +5429,10 @@
 }
 
 .campery-app-park-description-image {
+  position: relative;
+  left: -53px;
   width: 600px;
-  height: 1000px;
+  height: 700px;
   margin-top: -50px;
   margin-right: auto;
   margin-left: -150px;
@@ -5405,11 +5449,13 @@
 }
 
 .campery-app-guides-image {
+  position: relative;
+  left: -240px;
   width: 600px;
-  height: 1000px;
+  height: 700px;
   margin-top: -50px;
   margin-right: auto;
-  margin-left: -150px;
+  margin-left: auto;
   padding-right: 0px;
   padding-left: 0px;
   -webkit-box-flex: 0;
@@ -5436,63 +5482,83 @@
 }
 
 .campery-summary-top-bar-copy {
-  position: absolute;
+  position: relative;
+  left: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
-  margin-left: 1500px;
+  margin-left: 0px;
   padding-top: 0px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-transform: translate3d(0px, 0px, -300px);
+  transform: translate3d(0px, 0px, -300px);
   text-align: center;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .campery-summary-top {
-  position: absolute;
+  position: relative;
   left: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 550px;
+  width: 430px;
   height: 89px;
   padding: 0px;
   background-color: #b2bdbb;
 }
 
 .campery-summary-block-8 {
-  position: absolute;
-  left: auto;
+  position: relative;
+  left: 137px;
   top: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 252px;
+  margin-left: 0px;
   padding-top: 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   background-color: transparent;
+  -webkit-transform: translate3d(0px, 0px, 10px);
+  transform: translate3d(0px, 0px, 10px);
+  color: #254438;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .campery-summary-text {
-  position: static;
-  margin-left: -262px;
+  position: relative;
+  left: 37px;
+  margin-left: 0px;
   padding-left: 0px;
   font-family: Roboto, sans-serif;
   color: #242424;
@@ -5604,13 +5670,28 @@
 .campery-levi-reserach-gallery-1-1 {
   display: -ms-grid;
   display: grid;
+  width: auto;
+  margin-right: -9px;
   padding-top: 0px;
+  padding-right: 0px;
   padding-bottom: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  justify-items: end;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   grid-auto-columns: 1fr;
   grid-column-gap: 25px;
   grid-row-gap: 0px;
-  -ms-grid-columns: 0.75fr 1fr;
-  grid-template-columns: 0.75fr 1fr;
+  -ms-grid-columns: 0.75fr 3.5fr;
+  grid-template-columns: 0.75fr 3.5fr;
   -ms-grid-rows: auto minmax(auto, 1fr);
   grid-template-rows: auto minmax(auto, 1fr);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#242424), to(#242424));
@@ -6488,7 +6569,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 6px;
+  margin-left: 20px;
   padding-top: 0px;
   padding-left: 0px;
   -webkit-box-orient: horizontal;
@@ -10064,7 +10145,7 @@
 
 .campery-prelimiaries-text-1 {
   position: static;
-  margin-left: -262px;
+  margin-left: 0px;
   padding-left: 0px;
   font-family: Roboto, sans-serif;
   color: #242424;
@@ -10105,7 +10186,7 @@
 }
 
 .campery-preliminaries-top-1 {
-  position: absolute;
+  position: static;
   left: 0px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -10314,7 +10395,86 @@
   background-repeat: no-repeat;
 }
 
+.campery-bar-text-small {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 179px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  color: #242424;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.div-block-23 {
+  margin-left: 0px;
+}
+
+.campery-research-levi-image-1-top {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Campery-Research-Levi.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.campery-research-joel-image-top {
+  width: 683px;
+  height: 1002px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-image: url('../images/Campery-Research-Joel.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-grid-container-icons {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 35px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 62px;
+  grid-row-gap: 20px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 1fr 62px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 52px 20px 158px 20px 52px 20px 158px;
+  grid-template-rows: 52px 158px 52px 158px;
+}
+
 @media screen and (max-width: 991px) {
+  .main-logo {
+    height: 100px;
+    margin-top: -66px;
+    margin-left: 0px;
+  }
+
   .footer {
     padding-right: 20px;
     padding-left: 20px;
@@ -10351,6 +10511,16 @@
     left: 0px;
     top: 0px;
     opacity: 1;
+  }
+
+  .centered-container-2 {
+    height: 800px;
+    margin-top: -133px;
+    margin-bottom: 750px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
   }
 
   .navbar-3 {
@@ -10569,11 +10739,11 @@
   }
 
   .planning-text {
-    color: #242424;
+    color: #254438;
   }
 
   .planning-text-block {
-    color: #242424;
+    color: #254438;
   }
 
   .div-block-15 {
@@ -10783,13 +10953,14 @@
   }
 
   .campery-overview-top-bar {
-    margin-top: -70px;
+    top: 533px;
+    margin-top: 45px;
     margin-left: 0px;
     padding-top: 0px;
   }
 
   .campery-overview-flex-container {
-    margin-top: 0px;
+    margin-top: 161px;
   }
 
   .campery-overview-div-main {
@@ -10833,6 +11004,10 @@
     align-items: center;
   }
 
+  .campery-div-block-18 {
+    margin-left: -174px;
+  }
+
   .campery-preliminaries {
     margin-top: 0px;
     padding-top: 150px;
@@ -10845,7 +11020,7 @@
   }
 
   .campery-flex-container-2 {
-    margin-top: 0px;
+    margin-top: 42px;
   }
 
   .campery-research {
@@ -10858,16 +11033,31 @@
     margin-left: 0px;
   }
 
+  .campery-research-flex-container-main {
+    margin-top: 80px;
+  }
+
+  .campery-research-div-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .campery-reserach-div-1 {
     height: 400px;
+    margin-right: 0px;
   }
 
   .campery-reserach-div-2 {
     height: 400px;
+    margin-right: 0px;
   }
 
   .campery-reserach-div-3 {
     height: 400px;
+    margin-top: 0px;
   }
 
   .campery-research-ayo-section-1 {
@@ -10964,7 +11154,15 @@
   }
 
   .campery-flex_container_2 {
-    margin-top: 0px;
+    margin-top: 109px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .campery-nav_top {
@@ -10973,11 +11171,89 @@
   }
 
   .cards-grid-container {
+    margin-left: 696px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     grid-column-gap: 20px;
   }
 
+  .cards-image-mask {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: -82px 0px -96px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .cards-image {
+    height: 400px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .heading-5 {
+    margin-left: -3px;
+  }
+
+  .campery-competitive-analysis {
+    height: 900px;
+  }
+
   .competitive-cards-grid-container {
+    width: 300px;
+    height: 700px;
+    margin-left: 54px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     grid-column-gap: 20px;
+  }
+
+  .competitive-div-block-20 {
+    height: 700px;
+  }
+
+  .competitive-cards-image-mask {
+    width: 300px;
+    margin-right: 0px;
+  }
+
+  .competitive-card-image {
+    width: 300px;
+    height: 500px;
   }
 
   .campery-solutions {
@@ -10987,6 +11263,7 @@
 
   .campery-solution-div-1 {
     height: 400px;
+    margin-right: 15px;
   }
 
   .campery-solution-div-2 {
@@ -10997,11 +11274,22 @@
     height: 400px;
   }
 
+  .centered-container-3 {
+    position: relative;
+    top: -95px;
+    margin-top: 132px;
+  }
+
   .gallery-grid-container {
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .campery-athul-task {
+    margin-top: 120px;
+    padding-left: 0px;
   }
 
   .campery-athul-task-flow {
@@ -11018,11 +11306,65 @@
     align-self: stretch;
   }
 
+  .campery-joel-reserach-gallery-1 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    grid-auto-flow: column;
+    -ms-grid-columns: 0.75fr;
+    grid-template-columns: 0.75fr;
+  }
+
+  .campery-joel-reserach-gallery-2 {
+    height: 1700px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    -ms-grid-columns: 0.75fr;
+    grid-template-columns: 0.75fr;
+  }
+
+  .campery-research-joel-image {
+    opacity: 1;
+  }
+
   .campery-joel-task-flow {
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .campery-app-main-image {
+    width: 250px;
+    height: 400px;
+    margin-right: -75px;
+    margin-left: 0px;
+  }
+
+  .campery-app-park-description-image {
+    position: static;
+    left: auto;
+    width: 250px;
+    height: 400px;
+    margin-right: -75px;
+    margin-left: 0px;
+  }
+
+  .campery-app-guides-image {
+    position: static;
+    left: 0px;
+    width: 250px;
+    height: 400px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .campery-summary {
@@ -11040,11 +11382,65 @@
     margin-top: 0px;
   }
 
+  .campery-levi-reserach-gallery-1-1 {
+    height: 1800px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-flow: column;
+    -ms-grid-columns: 0.75fr;
+    grid-template-columns: 0.75fr;
+  }
+
+  .campery-levi-reserach-gallery-2-1 {
+    height: 1750px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    -ms-grid-columns: 0.75fr;
+    grid-template-columns: 0.75fr;
+  }
+
+  .campery-research-levi-image-1 {
+    margin-left: auto;
+    opacity: 1;
+  }
+
   .campery-levi-task-flow-1 {
+    padding-right: 0px;
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .campery-athul-reserach-gallery-2-1 {
+    height: 1690px;
+    grid-auto-flow: column;
+    -ms-grid-columns: 0.75fr;
+    grid-template-columns: 0.75fr;
+  }
+
+  .campery-athul-reserach-gallery-1-1 {
+    height: 2000px;
+    grid-auto-flow: column;
+    grid-row-gap: 0px;
+    -ms-grid-columns: 0.75fr;
+    grid-template-columns: 0.75fr;
+    -ms-grid-rows: auto minmax(auto, 1fr);
+    grid-template-rows: auto minmax(auto, 1fr);
+  }
+
+  .campery-research-athul-image-1 {
+    overflow: visible;
+    margin-left: auto;
+    opacity: 1;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .campery-athul-task-flow-1 {
@@ -11052,6 +11448,11 @@
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+
+  .campery-research-heading-5 {
+    margin-top: 155px;
+    margin-left: -1px;
   }
 
   .resourcery-nav_top {
@@ -11179,6 +11580,12 @@
 
   .vecado-planning-text {
     color: #242424;
+  }
+
+  .campery-prelim-image {
+    height: 500px;
+    margin-top: 60px;
+    margin-left: -38px;
   }
 
   .resourcer-cards-grid-container {
@@ -11491,6 +11898,10 @@
     margin-top: 0px;
   }
 
+  .campery-preliminaries-top-1 {
+    margin-top: 25px;
+  }
+
   .sushi-ai-ia-map {
     width: 98%;
     margin-top: 51px;
@@ -11504,6 +11915,26 @@
   .vecado-ia-map {
     width: 98%;
     margin-top: 51px;
+  }
+
+  .div-block-24 {
+    height: 700px;
+  }
+
+  .campery-research-levi-image-1-top {
+    margin-left: -18px;
+    opacity: 1;
+  }
+
+  .campery-research-joel-image-top {
+    opacity: 1;
+  }
+
+  .gallery-grid-container-icons {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
   }
 }
 
@@ -11656,6 +12087,10 @@
 
   .hero-overlay-2 {
     padding: 40px 20px;
+  }
+
+  .centered-container-2 {
+    margin-top: 0px;
   }
 
   .container-4 {
@@ -12710,6 +13145,10 @@
     grid-template-rows: auto auto auto auto;
   }
 
+  .campery-research-heading-5 {
+    margin-left: 120px;
+  }
+
   .resourcery-nav_top {
     padding: 40px 20px;
   }
@@ -13370,6 +13809,14 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
+  .gallery-grid-container-icons {
+    max-width: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -13686,27 +14133,46 @@
   }
 
   .centered-container-2 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    top: 88px;
+    display: block;
+    height: 800px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-grid-row-align: auto;
     align-self: auto;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
     text-align: left;
   }
 
@@ -15020,8 +15486,19 @@
   }
 
   .campery-overview {
+    height: 1400px;
     margin-top: 0px;
     padding-top: 0px;
+  }
+
+  .campery-overview-top-bar {
+    top: 0px;
+    margin-top: 281px;
+    margin-left: -21px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .campery-overview-flex-container {
@@ -15029,24 +15506,41 @@
   }
 
   .campery-overview-div-7 {
+    left: auto;
+    width: 320px;
     height: 60px;
-    margin-top: 120px;
+    margin-top: 0px;
     padding-top: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .campery-overview_div_8 {
-    margin-left: 169px;
+    margin-top: 18px;
+    margin-left: 221px;
+    padding-top: 0px;
+    padding-left: 0px;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
   }
 
   .campery-overview-text {
-    margin-left: 5px;
+    margin-left: 15px;
     font-size: 40px;
   }
 
   .campery-overview-text-block {
-    margin-top: 107px;
-    margin-left: 38px;
+    margin-top: 0px;
+    margin-left: 0px;
     padding-bottom: 0px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
     font-size: 100px;
   }
 
@@ -15176,7 +15670,19 @@
   }
 
   .campery-preliminaries-top-bar {
-    margin-top: -120px;
+    width: 320px;
+    margin-top: 0px;
+    margin-left: -20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-color: #b2bdbb;
+    color: transparent;
   }
 
   .campery-preliminaries-top {
@@ -15186,7 +15692,17 @@
   }
 
   .campery-div-block-8 {
-    margin-left: 169px;
+    left: 115px;
+    top: 17px;
+    margin-left: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .campery-prelimiaries-text {
@@ -15259,8 +15775,8 @@
   }
 
   .campery-research-div-top {
-    margin-top: -137px;
-    margin-left: -320px;
+    margin-top: -146px;
+    margin-left: 0px;
     padding-top: 0px;
   }
 
@@ -15271,13 +15787,16 @@
   }
 
   .campery-overview-div {
+    width: 320px;
     height: 60px;
-    margin-top: 120px;
+    margin-top: 0px;
     padding-top: 0px;
   }
 
   .overview-div-8-copy {
-    margin-left: 169px;
+    margin-top: 20px;
+    margin-left: 189px;
+    padding-top: 0px;
   }
 
   .campery-research-div-main {
@@ -15406,6 +15925,7 @@
   }
 
   .campery-planning-orange-rectangle {
+    width: 320px;
     height: 60px;
     margin-top: 120px;
     padding-top: 0px;
@@ -15442,17 +15962,41 @@
   }
 
   .campery-ideation-top-bar {
-    margin-top: -130px;
+    left: -21px;
+    top: 0px;
+    width: 321px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #b2bdbb;
   }
 
   .campery-ideation-top {
-    height: 60px;
-    margin-top: 120px;
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+    margin-right: 101px;
+    margin-left: 0px;
     padding-top: 0px;
+    background-color: transparent;
   }
 
   .campery-ideation-block-8 {
-    margin-left: 169px;
+    left: -100px;
+    top: 0px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .campery-ideation-flex-container {
@@ -15462,13 +16006,16 @@
   }
 
   .campery-ideation-text-block {
-    margin-left: 130px;
+    position: relative;
+    margin-left: 0px;
     font-size: 40px;
   }
 
   .campery-ideation-text {
-    margin-top: 111px;
-    margin-left: -163px;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
     font-size: 100px;
   }
 
@@ -15569,15 +16116,35 @@
     align-items: flex-start;
   }
 
+  .campery-statistic {
+    height: 1000px;
+    margin-bottom: 472px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .cards-grid-container {
-    margin: 266px 0px 50px;
-    padding-top: 20px;
+    position: relative;
+    left: 0px;
+    top: 82px;
+    width: 300px;
+    height: 800px;
+    margin: 0px auto;
+    padding-top: 0px;
     padding-bottom: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -15585,22 +16152,46 @@
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .cards-image-mask {
-    margin-top: -275px;
-    margin-bottom: 0px;
+    width: 300px;
+    height: 400px;
+    margin: 0px auto;
     padding-top: 0%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .cards-image {
-    width: 400px;
+    display: block;
+    width: 300px;
     height: 400px;
-    margin-top: 0px;
+    margin-top: -52px;
     margin-bottom: 0px;
-    padding-left: 147px;
+    padding-left: 0px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
     -o-object-fit: contain;
     object-fit: contain;
   }
@@ -15610,9 +16201,9 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 52px;
+    margin-top: 0px;
     margin-right: auto;
-    margin-left: 1px;
+    margin-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -15627,6 +16218,11 @@
     -ms-flex-align: start;
     align-items: flex-start;
     font-size: 25px;
+  }
+
+  .div-block-20 {
+    width: auto;
+    height: auto;
   }
 
   .campery-competitive-analysis {
@@ -15647,9 +16243,9 @@
   }
 
   .competitive-cards-grid-container {
-    margin-top: -84px;
-    margin-right: 0px;
-    margin-left: -169px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 20px;
     padding-bottom: 20px;
     -webkit-box-orient: vertical;
@@ -15657,14 +16253,14 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -15696,7 +16292,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 200px;
-    height: 500px;
+    height: 350px;
     margin-right: 0px;
     padding-top: 0%;
     -webkit-box-orient: vertical;
@@ -15715,8 +16311,13 @@
 
   .competitive-card-image {
     width: 300px;
-    height: 400px;
-    margin-left: -20px;
+    height: 300px;
+    margin-left: -15px;
+    padding-top: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     -o-object-fit: contain;
     object-fit: contain;
   }
@@ -15807,9 +16408,11 @@
   }
 
   .centered-container-3 {
+    left: 10px;
+    top: -128px;
     display: block;
-    margin-top: 22px;
-    padding-left: 10px;
+    margin-top: 0px;
+    padding-left: 0px;
     text-align: left;
   }
 
@@ -15817,7 +16420,7 @@
     display: -ms-grid;
     display: grid;
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 22px;
     padding-right: 35px;
     padding-left: 0px;
     -webkit-box-pack: start;
@@ -15834,7 +16437,7 @@
     align-content: stretch;
     grid-auto-flow: row;
     grid-auto-columns: minmax(129px, 0.75fr);
-    grid-column-gap: 41px;
+    grid-column-gap: 21px;
     grid-row-gap: 6px;
     grid-template-areas: ".";
     -ms-grid-columns: minmax(127px, 0.25fr);
@@ -15843,8 +16446,14 @@
     grid-template-rows: auto auto;
   }
 
+  .heading-6 {
+    margin-top: 200px;
+    margin-left: 16px;
+  }
+
   .paragraph-4 {
     margin-right: 48px;
+    margin-left: 15px;
     padding-right: 10px;
     font-size: 20px;
   }
@@ -15872,6 +16481,8 @@
   }
 
   .campery-athul-task {
+    margin-top: -157px;
+    padding-left: 60px;
     text-align: left;
   }
 
@@ -15901,6 +16512,7 @@
   }
 
   .campery-joel-reserach-gallery-2 {
+    height: 800px;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -15913,8 +16525,9 @@
   }
 
   .campery-research-joel-image {
-    width: 350px;
+    width: 300px;
     height: 400px;
+    margin-left: 50px;
   }
 
   .campery-joel-personality-image {
@@ -15924,7 +16537,7 @@
 
   .campery-joel-task-flow {
     width: auto;
-    height: auto;
+    height: 300px;
     margin-right: 0px;
     margin-left: 0px;
     -ms-grid-columns: 1fr;
@@ -16015,22 +16628,47 @@
   }
 
   .campery-summary-top-bar-copy {
-    margin-top: -130px;
+    width: 320px;
+    margin-top: 0px;
+    margin-left: -20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .campery-summary-top {
     height: 60px;
-    margin-top: 120px;
+    margin-top: 0px;
     padding-top: 0px;
   }
 
   .campery-summary-block-8 {
-    margin-left: 169px;
+    left: auto;
+    display: block;
+    width: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    color: #b2bdbb;
   }
 
   .campery-summary-text {
-    margin-top: 111px;
-    margin-left: -167px;
+    left: 12px;
+    top: 23px;
+    margin-top: 0px;
+    margin-left: 0px;
     font-size: 95px;
   }
 
@@ -16121,27 +16759,49 @@
   }
 
   .campery-levi-reserach-gallery-1-1 {
+    height: 1200px;
     padding-top: 0px;
+    padding-right: 0px;
     padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    justify-items: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
     grid-auto-flow: column;
     grid-column-gap: 0px;
   }
 
   .campery-levi-reserach-gallery-2-1 {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+    height: 1200px;
+    margin-bottom: -142px;
+    padding: 0px;
     grid-auto-flow: row;
     grid-column-gap: 0px;
-    -ms-grid-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
-    grid-template-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    -ms-grid-columns: minmax(200px, 0.25fr);
+    grid-template-columns: minmax(200px, 0.25fr);
     -ms-grid-rows: auto minmax(auto, 1.5fr);
     grid-template-rows: auto minmax(auto, 1.5fr);
   }
 
   .campery-research-levi-image-1 {
-    width: 350px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
     height: 400px;
+    margin-top: -124px;
+    margin-right: auto;
+    margin-left: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .campery-research-joel-image-copy {
@@ -16156,7 +16816,7 @@
 
   .campery-levi-task-flow-1 {
     width: auto;
-    height: auto;
+    height: 300px;
     margin-right: 0px;
     margin-left: 0px;
     -ms-grid-columns: 1fr;
@@ -16166,34 +16826,61 @@
   }
 
   .campery-athul-reserach-gallery-2-1 {
+    height: 1000px;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     grid-auto-flow: row;
     grid-column-gap: 0px;
-    -ms-grid-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
-    grid-template-columns: minmax(200px, 0.25fr) minmax(200px, 1fr);
+    -ms-grid-columns: minmax(86px, 0.25fr) minmax(200px, 1fr);
+    grid-template-columns: minmax(86px, 0.25fr) minmax(200px, 1fr);
     -ms-grid-rows: auto minmax(auto, 1.5fr);
     grid-template-rows: auto minmax(auto, 1.5fr);
   }
 
   .campery-athul-reserach-gallery-1-1 {
-    padding-top: 0px;
-    padding-left: 0px;
+    height: 1100px;
+    margin-left: 0px;
+    padding: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-align-content: start;
+    -ms-flex-line-pack: start;
+    align-content: start;
     grid-auto-flow: column;
     grid-column-gap: 0px;
   }
 
   .campery-research-athul-image-1 {
-    width: 350px;
+    position: relative;
+    left: -23px;
+    width: 300px;
     height: 400px;
+    margin-left: 28px;
   }
 
   .campery-athul-task-flow-1 {
     width: auto;
-    height: auto;
+    height: 100px;
     margin-right: 0px;
     margin-left: 0px;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
@@ -16206,27 +16893,23 @@
   }
 
   .campery-research-heading-5 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 70px;
-    margin-right: auto;
-    margin-left: 158px;
+    display: block;
+    margin: 0px auto 0px 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
     font-size: 25px;
+    text-align: center;
   }
 
   .div-block-22 {
@@ -16620,8 +17303,8 @@
   }
 
   .campery-overview-text-block-2 {
-    margin-top: 107px;
-    margin-left: 38px;
+    margin-top: 0px;
+    margin-left: 0px;
     padding-bottom: 0px;
     font-size: 100px;
   }
@@ -18664,20 +19347,29 @@
   }
 
   .campery-prelimiaries-text-1 {
-    margin-top: 111px;
-    margin-left: -167px;
+    margin-top: 0px;
+    margin-left: -120px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
     font-size: 95px;
   }
 
   .campery-text-block-1 {
-    margin-left: 122px;
+    margin-left: 0px;
     font-size: 25px;
   }
 
   .campery-preliminaries-top-1 {
+    position: relative;
+    left: 112px;
+    width: 100px;
     height: 60px;
-    margin-top: 120px;
+    margin-top: 0px;
+    margin-left: 5px;
     padding-top: 0px;
+    background-color: transparent;
   }
 
   .resourcery-text-block {
@@ -18715,7 +19407,7 @@
   }
 
   .campery-div-block-19 {
-    margin-top: 69px;
+    margin-top: 0px;
     margin-left: 0px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -18783,6 +19475,63 @@
     -ms-flex-item-align: auto;
     align-self: auto;
     background-size: contain;
+  }
+
+  .campery-bar-text-small {
+    margin-left: 125px;
+    font-size: 40px;
+  }
+
+  .campery-research-levi-image-1-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: 12px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .campery-research-joel-image-top {
+    width: 300px;
+    height: 400px;
+    margin-left: 24px;
+  }
+
+  .gallery-grid-container-icons {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 146px;
+    margin-right: 0px;
+    margin-left: -11px;
+    padding-right: 35px;
+    padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    justify-items: stretch;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    grid-auto-flow: row;
+    grid-auto-columns: minmax(129px, 0.75fr);
+    grid-column-gap: 21px;
+    grid-row-gap: 6px;
+    grid-template-areas: ".";
+    -ms-grid-columns: minmax(127px, 0.25fr);
+    grid-template-columns: minmax(127px, 0.25fr);
+    -ms-grid-rows: auto 6px auto;
+    grid-template-rows: auto auto;
   }
 }
 
@@ -19818,6 +20567,18 @@
   grid-row-start: 4;
 }
 
+@media screen and (max-width: 991px) {
+  #w-node-_168e69f3-8827-952b-27a1-e2255139d633-cc0f9b27 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7cd-cc0f9b27 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}
+
 @media screen and (max-width: 479px) {
   #w-node-_053fca82-8bbc-fe10-2b48-5cc0c4941459-cc0f9b27 {
     -ms-grid-column: span 1;
@@ -19833,13 +20594,6 @@
     grid-column-end: span 1;
   }
 
-  #w-node-_053fca82-8bbc-fe10-2b48-5cc0c4941467-cc0f9b27 {
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-  }
-
   #w-node-_8b97c4c9-7847-e4d7-b373-0359981edf60-cc0f9b27 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
@@ -19848,6 +20602,19 @@
   }
 
   #w-node-_8b97c4c9-7847-e4d7-b373-0359981edf63-cc0f9b27 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-e61f5785-5336-094e-d4ef-c064314096ee-cc0f9b27 {
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
@@ -19914,6 +20681,21 @@
     grid-row-start: 1;
   }
 
+  #w-node-_168e69f3-8827-952b-27a1-e2255139d633-cc0f9b27 {
+    -ms-grid-row-align: start;
+    align-self: start;
+    -ms-grid-column-align: start;
+    justify-self: start;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+  }
+
   #w-node-_168e69f3-8827-952b-27a1-e2255139d634-cc0f9b27 {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -19965,20 +20747,20 @@
     -ms-grid-row-align: start;
     align-self: start;
     -ms-grid-column-span: 2;
-    grid-column-end: 3;
-    -ms-grid-column: 1;
-    grid-column-start: 1;
+    grid-column-end: span 2;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
     -ms-grid-row-span: 1;
-    grid-row-end: 2;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
+    grid-row-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
   }
 
   #w-node-f7aefd05-8b57-5c96-790e-1f21c13ee7cd-cc0f9b27 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
     -ms-grid-column-align: center;
     justify-self: center;
   }
