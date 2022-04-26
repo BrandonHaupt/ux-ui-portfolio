@@ -5883,7 +5883,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/About-me-resume.png');
+  background-image: url('../images/White-Resume.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -10493,6 +10493,17 @@
   color: #fff;
 }
 
+.home-paragraph-top {
+  position: relative;
+  margin-right: 155px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 22px;
+  font-weight: 300;
+  text-align: left;
+}
+
 @media screen and (max-width: 991px) {
   .hero-section {
     padding-top: 0px;
@@ -13886,6 +13897,10 @@
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
   }
+
+  .home-paragraph-top {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -13937,6 +13952,7 @@
     width: auto;
     max-width: 100%;
     margin-top: -51px;
+    margin-bottom: 0px;
     margin-left: 0%;
   }
 
@@ -14027,6 +14043,7 @@
   }
 
   .right-portfolio-section {
+    position: static;
     margin-bottom: 0px;
   }
 
@@ -14039,6 +14056,7 @@
   }
 
   .footer-flex-container {
+    margin-top: -150px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -15596,6 +15614,8 @@
   }
 
   .magical-library {
+    position: relative;
+    left: 25px;
     margin-left: 0px;
     padding-left: 0px;
   }
@@ -16319,8 +16339,7 @@
     display: block;
     width: 300px;
     height: 400px;
-    margin-top: -52px;
-    margin-bottom: 0px;
+    margin: -52px auto 0px;
     padding-left: 0px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
@@ -19668,6 +19687,12 @@
     grid-template-columns: minmax(127px, 0.25fr);
     -ms-grid-rows: auto 6px auto;
     grid-template-rows: auto auto;
+  }
+
+  .home-paragraph-top {
+    margin-right: 0px;
+    font-size: 15px;
+    text-align: center;
   }
 }
 
